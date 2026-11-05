@@ -1,0 +1,1 @@
+<div class="source-directory">@foreach($navigation as $branch)<section class="portal-card"><h2><a href="{{ $branch['href'] }}">{{ $branch['title'] }}</a></h2>@include('site.sitemap-branch',['entries'=>$branch['children'] ?? []])</section>@endforeach</div>

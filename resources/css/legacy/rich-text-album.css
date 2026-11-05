@@ -1,0 +1,54 @@
+/* Shared by public rich text, the visual editor and its preview. */
+[data-section] :is(.portal-rich-text, .portal-cms-surface) .portal-image-album {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin-block: 20px;
+}
+[data-section] :is(.portal-rich-text, .portal-cms-surface) .portal-image-album-columns-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+[data-section] :is(.portal-rich-text, .portal-cms-surface) .portal-image-album-columns-1 {
+  grid-template-columns: minmax(0, 1fr);
+}
+[data-section] :is(.portal-rich-text, .portal-cms-surface) .portal-image-album-item {
+  min-width: 0;
+  padding: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border-color, #dce5ee);
+  border-radius: 10px;
+  background: var(--card-bg, #f5f8fc);
+}
+[data-section] :is(.portal-rich-text, .portal-cms-surface) .portal-image-album-item img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  object-position: center;
+  margin: 0;
+  border: 0;
+  border-radius: 5px;
+}
+[data-section] :is(.portal-rich-text, .portal-cms-surface) .portal-image-album-caption {
+  grid-column: 1 / -1;
+  margin: 0;
+  text-align: center;
+  color: var(--text-secondary, #53667c);
+  font-size: 0.9em;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 760px) {
+  [data-section] :is(.portal-rich-text, .portal-cms-surface) .portal-image-album-columns-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 480px) {
+  [data-section] :is(.portal-rich-text, .portal-cms-surface) .portal-image-album {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "state": {
+    "name": "",
+    "melli": "",
+    "phone": "",
+    "reports": [
+      {
+        "id": "MZ-1042",
+        "title": "تجمع پسماند در خیابان فرهنگ",
+        "cat": "پسماند",
+        "city": "ساری",
+        "date": "1404/04/12",
+        "status": "review"
+      },
+      {
+        "id": "MZ-1038",
+        "title": "چاله خطرناک در جاده کمربندی",
+        "cat": "جاده و حمل‌ونقل",
+        "city": "بابل",
+        "date": "1404/04/05",
+        "status": "referred"
+      },
+      {
+        "id": "MZ-1021",
+        "title": "قطعی مکرر آب شرب",
+        "cat": "آب و فاضلاب",
+        "city": "آمل",
+        "date": "1404/03/20",
+        "status": "resolved"
+      },
+      {
+        "id": "MZ-0998",
+        "title": "روشنایی معابر خراب",
+        "cat": "برق",
+        "city": "قائم‌شهر",
+        "date": "1404/03/02",
+        "status": "rejected"
+      }
+    ],
+    "nextId": 1043,
+    "category": null,
+    "urgency": "متوسط",
+    "pollVoted": false
+  },
+  "categories": [
+    {
+      "key": "پسماند",
+      "label": "پسماند",
+      "icon": "trash"
+    },
+    {
+      "key": "جاده و حمل‌ونقل",
+      "label": "جاده و حمل‌ونقل",
+      "icon": "truck"
+    },
+    {
+      "key": "آب و فاضلاب",
+      "label": "آب و فاضلاب",
+      "icon": "drop"
+    },
+    {
+      "key": "برق",
+      "label": "برق",
+      "icon": "zap"
+    },
+    {
+      "key": "فضای سبز",
+      "label": "فضای سبز",
+      "icon": "leaf"
+    },
+    {
+      "key": "بهداشت و درمان",
+      "label": "بهداشت و درمان",
+      "icon": "pulse"
+    },
+    {
+      "key": "امنیت و انتظامی",
+      "label": "امنیت و انتظامی",
+      "icon": "shield"
+    },
+    {
+      "key": "سایر",
+      "label": "سایر موارد",
+      "icon": "more"
+    }
+  ],
+  "catIcons": {
+    "trash": "<polyline points=\"3 6 5 6 21 6\"/><path d=\"M19 6l-1 14a2 2 0 01-2 2H8a2 2 0 01-2-2L5 6\"/><path d=\"M10 11v6\"/><path d=\"M14 11v6\"/><path d=\"M9 6V4a2 2 0 012-2h2a2 2 0 012 2v2\"/>",
+    "truck": "<rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"/><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"/><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"/><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"/>",
+    "drop": "<path d=\"M12 2.69l5.66 5.66a8 8 0 11-11.31 0z\"/>",
+    "zap": "<polygon points=\"13 2 3 14 12 14 11 22 21 10 12 10 13 2\"/>",
+    "leaf": "<path d=\"M11 20A7 7 0 019.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z\"/><path d=\"M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12\"/>",
+    "pulse": "<polyline points=\"22 12 18 12 15 21 9 3 6 12 2 12\"/>",
+    "shield": "<path d=\"M12 2l8 3v6c0 6-8 11-8 11S4 17 4 11V5l8-3z\"/>",
+    "more": "<circle cx=\"5\" cy=\"12\" r=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"1.5\"/><circle cx=\"19\" cy=\"12\" r=\"1.5\"/>"
+  },
+  "statusMap": {
+    "review": {
+      "label": "در حال بررسی",
+      "cls": "status-review",
+      "icon": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><polyline points=\"12 6 12 12 16 14\"/>"
+    },
+    "referred": {
+      "label": "ارجاع به سازمان مربوطه",
+      "cls": "status-referred",
+      "icon": "<path d=\"M9 18l6-6-6-6\"/>"
+    },
+    "resolved": {
+      "label": "حل شده",
+      "cls": "status-resolved",
+      "icon": "<polyline points=\"20 6 9 17 4 12\"/>"
+    },
+    "rejected": {
+      "label": "رد شده",
+      "cls": "status-rejected",
+      "icon": "<line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"/><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"/>"
+    }
+  }
+}

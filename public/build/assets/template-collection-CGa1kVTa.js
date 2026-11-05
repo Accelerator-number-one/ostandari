@@ -1,0 +1,1 @@
+import{p as e}from"./app-B9KBfllt.js";function t(t,n,r,i){let a=e(t,n),o=a[0];if(!o?.parentElement)return;let s=o.cloneNode(!0),c=document.createComment(`template collection`);o.before(c),a.forEach(e=>e.remove()),r.forEach(e=>{let t=s.cloneNode(!0);i(t,e),c.before(t)}),c.remove()}export{t};

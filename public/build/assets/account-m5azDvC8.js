@@ -1,0 +1,1 @@
+import{T as e}from"./app-BAT2XoxC.js";async function t(t=!1,n=`/panel/admin/login`){await e(`auth/logout`,{method:`POST`}),window.location.assign(n)}export{t as logoutAdmin};

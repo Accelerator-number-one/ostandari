@@ -1,0 +1,1 @@
+<section class="portal-events-page"><header class="portal-events-page-heading"><h2>{{ $county?'رویدادهای شهرستان '.$county['name']:'رویدادهای استان' }}</h2>@include('site.event-subscription')</header>@include('site.collection')</section>

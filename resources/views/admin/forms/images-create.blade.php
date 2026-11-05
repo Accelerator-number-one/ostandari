@@ -1,0 +1,1 @@
+<form id="admin-record-form" class="cbn-flex-form portal-resource-form" data-form="true" data-resource="media"><label class="portal-resource-field portal-resource-wide">انتخاب فایل<input type="file" required="" accept="image/jpeg,image/png,image/webp"/><small>تصاویر به WebP تبدیل می‌شوند؛ حداکثر ۴ مگابایت. فایل در کتابخانهٔ عمومی سایت ذخیره می‌شود.</small></label></form>

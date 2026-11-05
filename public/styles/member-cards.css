@@ -1,0 +1,35 @@
+/* Shared member actions: identical dimensions on home, directory and profile cards. */
+[data-section='site'] .portal-member-actions {
+  grid-template-columns:minmax(0,1fr);gap:9px;
+}
+[data-section='site'] .portal-member-actions>a {
+  display:flex;grid-column:auto;align-items:center;justify-content:space-between;
+  width:100%;min-width:0;min-height:44px;padding:10px 16px;gap:12px;
+  border-radius:11px;font:600 12px/1.8 vazirmatn,sans-serif;white-space:nowrap;
+}
+[data-section='site'] .portal-member-actions>a>span {
+  display:grid;place-items:center;flex:none;width:24px;height:24px;
+  border-radius:7px;font-size:16px;line-height:1;
+}
+[data-section='site'] .portal-member-actions>.portal-member-personal,
+[data-section='site'] .portal-member-actions>.portal-member-profile:only-child {
+  color:#fff;background:#075b80;border-color:#075b80;
+}
+[data-section='site'] .portal-member-actions>.portal-member-personal>span,
+[data-section='site'] .portal-member-actions>.portal-member-profile:only-child>span {
+  background:#ffffff1a;
+}
+[data-section='site'] .portal-member-actions>.portal-member-profile:not(:only-child) {
+  color:#315e76;background:#fff;border-color:#d7e4eb;
+}
+[data-section='site'] .portal-member-actions>.portal-member-profile:not(:only-child)>span {
+  background:#edf5f8;
+}
+[data-section='site'] .portal-member-actions>.portal-member-personal:hover,
+[data-section='site'] .portal-member-actions>.portal-member-profile:only-child:hover {
+  color:#fff;background:#064b69;border-color:#064b69;
+}
+[data-section='site'] .portal-member-actions>.portal-member-profile:not(:only-child):hover {
+  color:#075b80;background:#f1f8fa;border-color:#a9c8d6;
+}
+

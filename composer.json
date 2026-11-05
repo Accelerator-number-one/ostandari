@@ -1,0 +1,30 @@
+{
+  "name": "ostandari/portal-api",
+  "description": "Standalone API for the Mazandaran governorate portal and administration",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.4",
+    "ext-exif": "*",
+    "ext-gd": "*",
+    "ext-pdo_mysql": "*",
+    "laravel/framework": "^13.0",
+    "laravel/sanctum": "^4.3",
+    "ezyang/htmlpurifier": "^4.19"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.6",
+    "phpunit/phpunit": "^12.0"
+  },
+  "autoload": {"psr-4": {"App\\": "app/", "Database\\Seeders\\": "database/seeders/"}},
+  "autoload-dev": {"psr-4": {"Tests\\": "tests/"}},
+  "scripts": {
+    "post-autoload-dump": ["Illuminate\\Foundation\\ComposerScripts::postAutoloadDump", "@php artisan package:discover --ansi"],
+    "setup": ["@php scripts/setup.php"],
+    "test": ["@php vendor/bin/phpunit"],
+    "serve": ["@php artisan serve --host=127.0.0.1 --port=8000"]
+  },
+  "config": {"optimize-autoloader": true, "preferred-install": "dist", "sort-packages": true, "allow-plugins": {}},
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

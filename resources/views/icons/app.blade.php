@@ -1,0 +1,1 @@
+<svg class="immg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="2" width="14" height="20" rx="3"></rect><path d="M9 18h6"></path><path d="M12 6v6"></path><path d="M9.5 9.5 12 12l2.5-2.5"></path></svg>

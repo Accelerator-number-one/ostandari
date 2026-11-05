@@ -1,0 +1,575 @@
+.portal-download {
+  --download-blue: #00477a;
+  --download-ink: #183f60;
+  --download-muted: #688095;
+  display: grid;
+  gap: 28px;
+  color: var(--download-ink);
+  line-height: 1.9;
+}
+.portal-download *,
+.portal-download *::before,
+.portal-download *::after {
+  box-sizing: border-box;
+}
+.portal-download :is(section, article, nav) {
+  min-width: 0;
+}
+.portal-download :is(a, button):focus-visible {
+  outline: 3px solid #d69b36;
+  outline-offset: 4px;
+}
+.portal-download .download-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+  border: 1px solid #dce7f0;
+  border-radius: 26px;
+  background: linear-gradient(115deg, #eaf2f8, #fff);
+}
+.portal-download .download-eyebrow {
+  color: #37617f;
+  font-size: 12px;
+  font-weight: 700;
+}
+.portal-download .download-hero h2 {
+  margin: 22px 0;
+  color: #183f60;
+  font-size: clamp(24px, 2.8vw, 40px);
+  font-weight: 850;
+  line-height: 1.8;
+}
+.portal-download .download-hero h2 strong {
+  display: block;
+  color: var(--download-blue);
+  font-size: 1.15em;
+}
+.portal-download .download-hero-copy > p {
+  max-width: 520px;
+  margin: 0 0 28px;
+  color: var(--download-muted);
+  font-size: 14px;
+  line-height: 2.2;
+}
+.portal-download .download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 48px;
+  max-width: 100%;
+  padding: 12px 22px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background: var(--download-blue);
+  color: #fff;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.8;
+  text-align: center;
+  text-decoration: none;
+  transition:
+    background-color 180ms ease,
+    transform 180ms ease;
+}
+.portal-download .download-button:hover {
+  background: #083b60;
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+.portal-download .download-button > svg {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+.portal-download .download-hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  padding: 0;
+  margin: 20px 0 0;
+  list-style: none;
+  color: var(--download-muted);
+  font-size: 11px;
+}
+.portal-download .download-hero-tags > li::before {
+  content: '✓';
+  margin-inline-end: 7px;
+  color: #268477;
+}
+.portal-download .download-art {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-width: 0;
+  height: 400px;
+  padding: 28px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #12678f, #063955);
+  overflow: hidden;
+  isolation: isolate;
+}
+.portal-download .download-orbit {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border: 1px solid #ffffff18;
+  border-radius: 50%;
+  z-index: -1;
+}
+.portal-download .download-orbit::before,
+.portal-download .download-orbit::after {
+  content: '';
+  position: absolute;
+  inset: 25px;
+  border: 1px solid #ffffff13;
+  border-radius: inherit;
+}
+.portal-download .download-orbit::after {
+  inset: 50px;
+  border-style: dashed;
+}
+.portal-download .download-phone {
+  width: 202px;
+  padding: 7px;
+  border: 2px solid #708d9f;
+  border-radius: 32px;
+  background: #113c54;
+  box-shadow: 8px 20px 24px #001a3145;
+  transform: rotate(-6deg);
+}
+.portal-download .download-phone-camera {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  width: 66px;
+  height: 14px;
+  border-radius: 20px;
+  background: #113c54;
+  transform: translateX(-50%);
+}
+.portal-download .download-phone-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 320px;
+  padding: 28px 14px 14px;
+  border-radius: 24px;
+  background: #f5f9fc;
+}
+.portal-download .download-phone-screen > img {
+  display: block;
+  width: 48px;
+  height: 52px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+.portal-download .download-phone-screen > strong {
+  font-size: 12px;
+  color: #244b68;
+}
+.portal-download .download-phone-screen > span {
+  margin-top: 3px;
+  color: #8398a8;
+  font-size: 8px;
+}
+.portal-download .download-phone-news {
+  display: grid;
+  grid-template-columns: 22px 1fr;
+  align-items: center;
+  gap: 8px 5px;
+  width: 100%;
+  padding: 12px 10px;
+  margin-top: 18px;
+  border-radius: 12px;
+  background: linear-gradient(110deg, #145e82, #123f61);
+  color: #fff;
+}
+.portal-download .download-phone-news > svg {
+  width: 18px;
+  height: 18px;
+}
+.portal-download .download-phone-news > strong {
+  font-size: 10px;
+}
+.portal-download .download-phone-news > span {
+  grid-column: 1 / -1;
+  width: 100%;
+  height: 3px;
+  border-radius: 6px;
+  background: #ffffff30;
+}
+.portal-download .download-phone-news > span:last-child {
+  width: 68%;
+}
+.portal-download .download-phone-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px;
+  width: 100%;
+  margin-top: 12px;
+}
+.portal-download .download-phone-services > div {
+  display: grid;
+  justify-items: center;
+  gap: 7px;
+  padding: 12px 5px;
+  border: 1px solid #e1e9f0;
+  border-radius: 10px;
+  background: #fff;
+}
+.portal-download .download-phone-services svg {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+.portal-download .download-phone-services span {
+  color: #5c7a90;
+  font-size: 8px;
+}
+.portal-download .download-phone-home {
+  width: 45px;
+  height: 3px;
+  margin-top: 17px;
+  border-radius: 8px;
+  background: #91a5b4;
+}
+.portal-download .download-float {
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  gap: 7px;
+  padding: 15px 12px;
+  border: 1px solid #ffffff2b;
+  border-radius: 15px;
+  background: #ffffff0d;
+  color: #e4f3fc;
+}
+.portal-download .download-float svg {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+.portal-download .download-float span {
+  font-size: 9px;
+}
+.portal-download .download-float.is-news {
+  top: 34px;
+  inset-inline-start: 20px;
+}
+.portal-download .download-float.is-services {
+  bottom: 34px;
+  inset-inline-end: 20px;
+}
+.portal-download .download-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  scroll-margin-top: 25px;
+}
+.portal-download .download-option {
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  border: 1px solid #dfe8f0;
+  border-radius: 22px;
+  background: #fff;
+}
+.portal-download .download-option.is-web {
+  border-color: #bacfdf;
+  background: linear-gradient(145deg, #fff, #f0f7fc);
+}
+.portal-download .download-option-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--download-muted);
+  font-size: 11px;
+}
+.portal-download .download-option-icon {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 15px;
+  background: #eaf2f8;
+  color: var(--download-blue);
+}
+.portal-download .download-option-icon svg {
+  width: 26px;
+  height: 26px;
+  margin: 0;
+}
+.portal-download .download-option h2 {
+  margin: 22px 0 10px;
+  color: var(--download-ink);
+  font-size: 21px;
+  font-weight: 800;
+}
+.portal-download .download-option p {
+  flex: 1;
+  margin: 0 0 24px;
+  color: var(--download-muted);
+  font-size: 13px;
+  line-height: 2.1;
+}
+.portal-download .download-option .download-button {
+  width: 100%;
+}
+.portal-download .download-option .download-button:disabled {
+  border-color: #e8edf3;
+  background: #f1f4f7;
+  color: #8496a6;
+  cursor: not-allowed;
+  opacity: 1;
+  transform: none;
+}
+.portal-download .download-option small {
+  display: block;
+  margin-top: 15px;
+  color: var(--download-muted);
+  font-size: 11px;
+  line-height: 2;
+}
+.portal-download .download-web-link {
+  display: inline-flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+  color: var(--download-blue);
+  font-size: 12px;
+  text-decoration: none;
+}
+.portal-download .download-guide {
+  padding: 32px;
+  border: 1px solid #dfe8f0;
+  border-radius: 22px;
+  background: #fff;
+  scroll-margin-top: 25px;
+}
+.portal-download .download-guide-intro h2 {
+  margin: 8px 0;
+  color: var(--download-ink);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.8;
+}
+.portal-download .download-guide-intro p {
+  margin: 0 0 24px;
+  color: var(--download-muted);
+  font-size: 13px;
+}
+.portal-download .download-device-tabs {
+  display: inline-flex;
+  max-width: 100%;
+  gap: 5px;
+  padding: 5px;
+  border: 1px solid #e1eaf2;
+  border-radius: 13px;
+  background: #f2f6fa;
+}
+.portal-download .download-device-tabs button {
+  min-width: 90px;
+  min-height: 44px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 9px;
+  background: transparent;
+  color: #56758d;
+  font: inherit;
+  font-size: 13px;
+  line-height: 1.8;
+  cursor: pointer;
+  transition:
+    background-color 160ms ease,
+    color 160ms ease;
+}
+.portal-download .download-device-tabs button[aria-selected='true'] {
+  background: var(--download-blue);
+  color: #fff;
+  box-shadow: 0 3px 10px #00477a18;
+}
+.portal-download .download-device-panel {
+  margin-top: 26px;
+  animation: downloadGuideEnter 180ms ease-out both;
+}
+.portal-download .download-device-panel ol {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.portal-download .download-device-panel li {
+  padding: 20px;
+  border: 1px solid #e2ebf3;
+  border-radius: 15px;
+  background: #fbfdff;
+}
+.portal-download .download-device-panel li > span {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  margin-bottom: 14px;
+  border-radius: 11px;
+  background: #e7f1f8;
+  color: var(--download-blue);
+  font-size: 16px;
+  font-weight: 800;
+}
+.portal-download .download-device-panel li > p {
+  margin: 0;
+  color: #527088;
+  font-size: 13px;
+  line-height: 2;
+  overflow-wrap: anywhere;
+}
+.portal-download .download-browser-note {
+  margin: 22px 0 0;
+  padding: 14px 18px;
+  border-radius: 12px;
+  background: #f0f6fb;
+  color: #5d7a91;
+  font-size: 12px;
+  line-height: 2;
+}
+.portal-download .download-quick-links {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+.portal-download .download-quick-links a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  min-height: 64px;
+  padding: 16px;
+  border: 1px solid #dfe8f0;
+  border-radius: 14px;
+  background: #fff;
+  color: #315d7d;
+  font-size: 12px;
+  text-decoration: none;
+}
+.portal-download .download-quick-links a > svg {
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  margin: 0;
+}
+.portal-download .download-quick-links a > span:last-child {
+  margin-inline-start: auto;
+}
+@keyframes downloadGuideEnter {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (max-width: 1100px) {
+  .portal-download .download-hero {
+    gap: 28px;
+    padding: 28px;
+  }
+  .portal-download .download-art {
+    height: 370px;
+  }
+  .portal-download .download-float {
+    display: none;
+  }
+  .portal-download .download-device-panel ol {
+    gap: 12px;
+  }
+  .portal-download .download-device-panel li {
+    padding: 16px;
+  }
+  .portal-download .download-quick-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 760px) {
+  .portal-download {
+    gap: 20px;
+  }
+  .portal-download .download-hero {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 24px;
+    gap: 28px;
+  }
+  .portal-download .download-hero h2 {
+    margin: 14px 0;
+    font-size: 28px;
+  }
+  .portal-download .download-art {
+    height: 350px;
+  }
+  .portal-download .download-phone {
+    transform: rotate(-4deg) scale(0.9);
+  }
+  .portal-download .download-options {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+  .portal-download .download-option {
+    padding: 24px;
+  }
+  .portal-download .download-guide {
+    padding: 24px;
+  }
+  .portal-download .download-guide-intro h2 {
+    font-size: 21px;
+  }
+  .portal-download .download-device-panel ol {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .portal-download .download-device-panel li {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .portal-download .download-device-panel li > span {
+    flex: 0 0 36px;
+    margin: 0;
+  }
+}
+@media (max-width: 420px) {
+  .portal-download .download-hero {
+    padding: 20px;
+  }
+  .portal-download .download-hero h2 {
+    font-size: 24px;
+  }
+  .portal-download .download-guide {
+    padding: 20px;
+  }
+  .portal-download .download-device-tabs {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 100%;
+  }
+  .portal-download .download-device-tabs button {
+    min-width: 0;
+    padding: 10px 6px;
+    font-size: 11px;
+  }
+  .portal-download .download-quick-links {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .portal-download * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

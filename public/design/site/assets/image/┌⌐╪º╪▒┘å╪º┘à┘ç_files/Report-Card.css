@@ -1,0 +1,218 @@
+@media print {
+    @page {
+        size: A4;
+        margin: 1.5cm;
+    }
+
+    .report-card {
+        height: auto;
+        max-height: 100%;
+        overflow: visible;
+        page-break-inside: avoid;
+    }
+
+    table,
+    .student-info,
+    .summary-row {
+        page-break-inside: avoid;
+    }
+}
+
+@font-face {
+    font-family: 'vazirmatn';
+    src: url('Fonts/Vazirmatn-VariableFont_wght.ttf') format('woff2');
+}
+
+
+
+
+
+
+
+
+
+
+* {
+    font-family: vazirmatn;
+    box-sizing: border-box;
+}
+
+/* div {
+    border: 1px solid red;
+} */
+
+body {
+    margin: 0;
+}
+
+td,
+th {
+    text-align: center;
+    vertical-align: middle;
+    padding: 1px;
+    border: 1px solid black;
+    font-size: 10px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+
+thead {
+    background: rgb(204, 204, 204);
+}
+
+.makecenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.report-card {
+    min-height: 100vh;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.report-card-top-top {
+    height: 20px;
+}
+
+.report-card-top-bottom {
+    display: flex;
+    height: 100px;
+    margin-top: 10px;
+    direction: rtl;
+    justify-content: space-between;
+}
+
+.report-card-top-bottom-right {
+    min-width: 80%;
+
+}
+
+.report-card-top-bottom-left {
+    min-width: 92px;
+    border: 1px solid black !important;
+}
+
+.report-card-top-bottom-top {
+    height: 55%;
+    width: 100%;
+}
+
+.report-card-top-bottom-top-table {
+    width: 100%;
+    height: 100%;
+}
+
+.report-card-top-bottom-bottom {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.report-card-grades {
+    direction: rtl;
+    margin-top: 10px;
+}
+
+.report-card-grades-bottom {
+    margin-top: 10px;
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+}
+.report-card-grades-bottom-right {
+    width: 75%;
+}
+.report-card-grades-bottom-left {
+    width: 20%;
+}
+.report-card-graph {
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+    direction: rtl;
+    justify-content: space-between;
+}
+.report-card-graph-right {
+    width: 35%;
+    height: 100%;
+    border: 1px solid black !important;
+}
+.report-card-graph-left {
+    width: 63%;
+    height: 100%;
+    border: 1px solid black !important;
+}
+.report-card-graph-bottom {
+    display: flex;
+    justify-content: space-around;
+    direction: rtl;
+    margin-top: 10px;
+    height: 110px;
+}
+
+.report-card-graph-bottom-right {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.report-card-graph-bottom-left {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.report-card-final {
+    direction: rtl;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.print-section {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.print-btn {
+    background: #1e3a5f;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: vazirmatn;
+    box-shadow: 0 8px 0 #0b1b30, 0 5px 20px rgba(0,0,0,0.2);
+    transition: 0.1s;
+    border: 2px solid white;
+}
+
+.print-btn:hover {
+    background: #2c4a7a;
+}
+
+.print-btn:active {
+    transform: translateY(8px);
+    box-shadow: 0 0 0 #0b1b30, 0 5px 15px rgba(0,0,0,0.2);
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.228);
+}
+
+/* Hide print button when printing */
+@media print {
+    .print-section {
+        display: none;
+    }
+}

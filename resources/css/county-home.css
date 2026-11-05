@@ -1,0 +1,150 @@
+/* County homepages share the provincial slideshow size and their own compact
+   news/services layout. These rules do not affect the provincial homepage. */
+[data-section='site'] .portal-county-home {
+  --county-line:#dce7ef;
+  --county-ink:#19435d;
+  --county-muted:#718896;
+  --county-soft:#f5f9fb;
+  font-family:vazirmatn,sans-serif;
+  padding-bottom:30px;
+}
+[data-section='site'] .portal-county-home :is(h2,h3,p,a,button,input) {font-family:inherit}
+[data-section='site'] .portal-county-home .portal-county-intro {gap:18px;margin-block:10px 26px;align-items:stretch}
+[data-section='site'] .portal-county-home .portal-county-intro.has-news {
+  grid-template-columns:minmax(0,calc((100% - 36px)/3.07142857)) minmax(0,calc((100% - 36px)/2.15));
+}
+[data-section='site'] .portal-county-home .portal-county-intro.has-news.has-side-panel {
+  grid-template-columns:minmax(0,1.4fr) minmax(0,2fr) minmax(200px,.9fr);
+}
+[data-section='site'] .portal-county-home .portal-county-intro.has-side-panel:not(.has-news):not(.governor-only) {
+  grid-template-columns:minmax(0,calc((100% - 36px)/2.15)) minmax(200px,calc((100% - 36px)/4.77777778));
+}
+[data-section='site'] .portal-county-home .portal-county-intro .county-home-slideshow {
+  width:100%;height:440px;min-width:0;min-height:0;
+}
+[data-section='site'] .portal-county-home .portal-county-intro .portal-carousel {
+  border:1px solid var(--county-line);border-radius:20px;box-sizing:border-box;
+  box-shadow:0 5px 22px #173e5805;
+}
+[data-section='site'] .portal-county-home .portal-county-intro .portal-carousel.is-empty,
+[data-section='site'] .portal-county-home .portal-carousel.is-empty :is(.swiper-slide,.source-slide-link) {background:#f5f8fb}
+[data-section='site'] .portal-county-home .portal-carousel-empty {position:relative}
+[data-section='site'] .portal-county-home .portal-carousel-empty::after {
+  content:'';position:absolute;inset:20px;border:1px dashed #d7e3ec;border-radius:12px;pointer-events:none;
+}
+[data-section='site'] .portal-county-home .portal-office-panel,
+[data-section='site'] .portal-county-home .portal-county-intro>.portal-office-governor {
+  border:1px solid var(--county-line);border-radius:20px;background:#fff;box-shadow:0 5px 22px #173e5805;
+}
+[data-section='site'] .portal-county-home .portal-office-panel-head {
+  margin-inline:20px;padding-block:18px 15px;gap:8px 12px;border-color:#e9f0f4;flex-wrap:nowrap;
+}
+[data-section='site'] .portal-county-home .portal-office-panel-head h2 {
+  color:var(--county-ink);font-size:16px;font-weight:750;line-height:1.9;
+}
+[data-section='site'] .portal-county-home .portal-office-panel-head>a {
+  gap:9px;flex:none;font-size:11px;color:#167c88;min-height:28px;
+}
+[data-section='site'] .portal-county-home .portal-office-panel-body {padding:18px 20px}
+[data-section='site'] .portal-county-home .source-empty {
+  grid-column:1/-1;min-height:110px;padding:20px 15px;border-color:#dfe9f0;
+  background:#f8fbfd;font-size:12px;color:var(--county-muted);line-height:2;
+}
+[data-section='site'] .portal-county-home :is(.county-intro-news,.county-intro-shortcuts) {
+  display:flex;flex-direction:column;height:440px;min-width:0;margin:0;
+}
+[data-section='site'] .portal-county-home .county-intro-news>.portal-office-panel-body {
+  display:flex;flex:1;min-height:0;padding:16px;
+}
+[data-section='site'] .portal-county-home .county-intro-news .cb2-center {
+  display:flex;flex-direction:column;flex:1;min-width:0;min-height:0;
+}
+[data-section='site'] .portal-county-home .county-intro-news .news-top {flex:none;margin-bottom:12px}
+[data-section='site'] .portal-county-home .news-tabs2 {width:100%;padding:4px;gap:4px;border-color:#e2ebf1;background:#f1f6f9}
+[data-section='site'] .portal-county-home .news-tab-btn {flex:1;min-height:38px;padding:7px 12px;font-size:12px;font-weight:600;line-height:1.9}
+[data-section='site'] .portal-county-home .news-tab-btn[aria-selected='true'] {
+  color:#075b80;background:#fff;box-shadow:0 2px 7px #173e580e;
+}
+[data-section='site'] .portal-county-home .county-intro-news .portal-county-card-grid {
+  display:grid;grid-template-columns:minmax(0,1fr);align-content:start;gap:10px;
+  flex:1;min-height:0;max-height:none;overflow-y:auto;overflow-x:hidden;padding:0 0 2px;
+  scrollbar-width:thin;scrollbar-color:#c9dde5 transparent;
+}
+[data-section='site'] .portal-county-home .county-intro-news .portal-county-card-grid:has(>.source-empty) {align-content:stretch}
+[data-section='site'] .portal-county-home .county-intro-news .source-empty {
+  display:grid;align-content:center;border:0;background:transparent;min-height:120px;padding:16px;
+}
+[data-section='site'] .portal-county-home .county-intro-news .portal-content-card {margin:0;border:1px solid #e6eef3;border-radius:12px;box-shadow:none}
+[data-section='site'] .portal-county-home .county-intro-news .portal-content-card-link {display:grid;grid-template-columns:78px minmax(0,1fr);gap:12px;padding:12px;align-items:center}
+[data-section='site'] .portal-county-home .county-intro-news .portal-content-card.without-photo .portal-content-card-link {grid-template-columns:minmax(0,1fr)}
+[data-section='site'] .portal-county-home .county-intro-news .portal-content-card-image {width:78px;height:82px;border-radius:8px;overflow:hidden}
+[data-section='site'] .portal-county-home .county-intro-news .portal-content-card-image img {width:100%;height:100%;object-fit:contain}
+[data-section='site'] .portal-county-home .county-intro-news .portal-content-card-copy {padding:0;min-width:0}
+[data-section='site'] .portal-county-home .county-intro-news .portal-content-card-meta {font-size:9px;line-height:1.9;gap:8px}
+[data-section='site'] .portal-county-home .county-intro-news .portal-content-card h3 {margin:7px 0 5px;font-size:13px;line-height:1.9}
+[data-section='site'] .portal-county-home .county-intro-news .portal-content-card p {font-size:11px;line-height:2;margin:0}
+[data-section='site'] .portal-county-home .county-intro-news .portal-content-card-more {display:none}
+[data-section='site'] .portal-county-home .county-intro-shortcuts>.portal-office-shortcuts {display:flex;flex-direction:column;justify-content:center;flex:1;gap:12px;min-height:0;overflow-y:auto;scrollbar-width:thin}
+[data-section='site'] .portal-county-home .portal-office-shortcuts a {
+  display:flex;align-items:center;min-height:64px;gap:10px;padding:13px 12px;
+  border:1px solid #deebf0;border-radius:12px;background:var(--county-soft);
+  color:#27576e;font-size:12px;line-height:1.9;transition:background .18s,border-color .18s;
+}
+[data-section='site'] .portal-county-home .portal-office-shortcuts a:hover {background:#eaf5f7;border-color:#b4d6de}
+[data-section='site'] .portal-county-home .portal-office-shortcuts a>span:not(.county-shortcut-arrow) {flex:1}
+[data-section='site'] .portal-county-home .county-shortcut-arrow {
+  display:grid;place-items:center;flex:none;width:26px;height:26px;border:1px solid #dae9ee;border-radius:8px;background:#fff;color:#17818b;
+}
+[data-section='site'] .portal-county-home .portal-office-shortcuts .portal-custom-link-image {width:34px;height:34px;object-fit:contain;flex:none}
+[data-section='site'] .portal-county-home .portal-county-intro>.portal-office-governor {height:440px;min-width:0;padding:23px 18px}
+[data-section='site'] .portal-county-home .portal-county-intro>.portal-office-governor h2 {font-size:16px;line-height:1.9}
+[data-section='site'] .portal-county-home .portal-office-content-grid {align-items:start;gap:22px;margin-bottom:24px}
+[data-section='site'] .portal-county-home .portal-office-content-grid:not(.has-main.has-sidebar) {grid-template-columns:minmax(0,1fr)}
+[data-section='site'] .portal-county-home .portal-office-gallery {gap:16px}
+[data-section='site'] .portal-county-home .portal-office-gallery h3 {font-size:13px;line-height:1.9}
+[data-section='site'] .portal-county-home .portal-office-newsletter {background:#fff}
+[data-section='site'] .portal-county-home .portal-office-newsletter .portal-form {margin:0;gap:14px}
+[data-section='site'] .portal-county-home .portal-office-newsletter label {display:grid;gap:8px;font-size:12px;line-height:1.9;color:#476b7e}
+[data-section='site'] .portal-county-home .portal-office-newsletter input {background:#f8fbfd;border-color:#d7e5ed;font-size:13px}
+[data-section='site'] .portal-county-home .portal-office-newsletter [role]:empty {display:none}
+[data-section='site'] .portal-county-home .portal-events-home {border-color:var(--county-line);border-radius:20px;box-shadow:0 5px 22px #173e5805;padding:22px}
+[data-section='site'] .portal-county-home .portal-events-home h2 {font-size:18px;line-height:1.9;color:var(--county-ink)}
+[data-section='site'] .portal-county-home .portal-events-home>header {margin-bottom:16px}
+[data-section='site'] .portal-county-home .portal-events-empty {font-size:12px;padding-block:16px 4px;color:var(--county-muted)}
+[data-section='site'] .portal-county-home .portal-office-locator {border-color:var(--county-line);background:#fff;box-shadow:0 5px 22px #173e5805}
+[data-section='site'] .portal-county-home .portal-office-location-copy h2 {font-size:25px;line-height:1.9}
+[data-section='site'] .portal-county-home .portal-office-location-copy h2 span {font-size:16px;line-height:1.9}
+[data-section='site'] .portal-county-home .portal-office-location-copy>p:empty {display:none}
+
+@media(max-width:1180px) and (min-width:761px) {
+  [data-section='site'] .portal-county-home .portal-county-intro.has-news,
+  [data-section='site'] .portal-county-home .portal-county-intro.has-news.has-side-panel {grid-template-columns:minmax(0,1fr) minmax(0,1.6fr)}
+  [data-section='site'] .portal-county-home .portal-county-intro.has-side-panel:not(.has-news):not(.governor-only) {grid-template-columns:minmax(0,calc((100% - 18px)/1.625))}
+  [data-section='site'] .portal-county-home .portal-county-intro.has-news>.county-intro-shortcuts,
+  [data-section='site'] .portal-county-home .portal-county-intro.has-news>.portal-office-governor {grid-column:1/-1;height:auto}
+  [data-section='site'] .portal-county-home .portal-county-intro.has-news .county-intro-shortcuts>.portal-office-shortcuts {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  [data-section='site'] .portal-county-home .portal-county-intro.has-news>.portal-office-governor {display:grid;grid-template-columns:120px minmax(0,1fr) auto;gap:8px 20px;text-align:start;align-items:center}
+  [data-section='site'] .portal-county-home .portal-county-intro.has-news .portal-office-portrait {grid-row:1/span 2;margin:0}
+  [data-section='site'] .portal-county-home .portal-county-intro.has-news .portal-office-governor .portal-office-actions {grid-row:1/span 2;grid-column:3;margin:0;width:180px}
+}
+@media(max-width:760px) {
+  [data-section='site'] .portal-county-home .portal-county-intro {display:flex;flex-direction:column;gap:18px}
+  [data-section='site'] .portal-county-home .portal-county-intro .county-home-slideshow {order:-1;height:auto;aspect-ratio:1280/522;flex:none}
+  [data-section='site'] .portal-county-home .portal-county-intro .portal-carousel {border-radius:16px}
+  [data-section='site'] .portal-county-home .portal-carousel-empty::after {inset:12px;border-radius:9px}
+  [data-section='site'] .portal-county-home .county-intro-news {height:370px}
+  [data-section='site'] .portal-county-home .county-intro-news:has(.news-list2>.source-empty):not(:has(.portal-content-card)) {height:250px}
+  [data-section='site'] .portal-county-home .county-intro-shortcuts,
+  [data-section='site'] .portal-county-home .portal-county-intro>.portal-office-governor {height:auto}
+  [data-section='site'] .portal-county-home .portal-office-panel-head {margin-inline:17px;padding-block:16px 13px}
+  [data-section='site'] .portal-county-home .portal-office-panel-head h2 {font-size:15px}
+  [data-section='site'] .portal-county-home .portal-office-panel-body {padding:16px 17px}
+  [data-section='site'] .portal-county-home .portal-office-content-grid {grid-template-columns:minmax(0,1fr);gap:18px}
+  [data-section='site'] .portal-county-home .portal-office-panel {border-radius:16px}
+  [data-section='site'] .portal-county-home .portal-office-shortcuts a {min-height:55px}
+  [data-section='site'] .portal-county-home .portal-events-home {padding:18px;border-radius:16px}
+  [data-section='site'] .portal-county-home .portal-office-locator {padding:22px;border-radius:16px}
+}
+@media(prefers-reduced-motion:reduce) {
+  [data-section='site'] .portal-county-home .portal-office-shortcuts a {transition:none}
+}

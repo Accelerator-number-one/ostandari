@@ -1,0 +1,35 @@
+<section class="portal-page-builder" data-custom-page-builder data-admin-base="{{ $moduleUrl }}" data-public-prefix="{{ $context['public_path']==='/'?'':$context['public_path'] }}" x-data="customPages">
+    <nav class="portal-builder-tabs" aria-label="مدیریت صفحه‌ها"><a href="{{ $moduleUrl }}" @class(['active'=>!request('tab')])>ساخت صفحه جدید</a><a href="{{ $moduleUrl }}?tab=list" @class(['active'=>request('tab')==='list'])>صفحه‌های ساخته‌شده</a></nav>
+    <div class="portal-builder-error" role="alert" x-show="error" x-cloak><p x-text="error"></p><ul><template x-for="(messages,key) in errors" :key="key"><li x-text="messages.join('، ')"></li></template></ul></div>
+    <form class="portal-builder-form" x-show="tab==='editor'" @submit.prevent="save()" x-cloak>
+        <fieldset :disabled="busy" class="portal-builder-layout">
+            <div class="portal-builder-main">
+                <div class="portal-builder-card"><h2 x-text="id?'ویرایش صفحه':'مشخصات صفحه'">مشخصات صفحه</h2>
+                    <label for="custom-title">عنوان صفحه <span>الزامی</span></label><input id="custom-title" x-model="form.title" required maxlength="255" placeholder="عنوان صفحه">
+                    <label for="custom-path">مسیر صفحه <span>الزامی</span></label><input id="custom-path" x-model="form.path" :readonly="!!form.legacy_source_key" required maxlength="220" dir="ltr" placeholder="/my-page" aria-describedby="custom-path-help">
+                    <p id="custom-path-help" class="portal-builder-help">مسیر را بدون نام دامنه بنویسید. در فرمانداری، نام شهرستان خودکار به ابتدای آن اضافه می‌شود.</p>
+                    <p class="portal-builder-help" x-show="form.legacy_source_key" x-cloak>این صفحه جایگزین پیوند سایت قبلی است. مسیر آن ثابت می‌ماند؛ عنوان و محتوا قابل ویرایش‌اند.</p>
+                    <p class="portal-builder-help" x-show="form.legacy_source_url" x-cloak>نشانی قبلی: <bdi x-text="form.legacy_source_url" style="overflow-wrap:anywhere"></bdi></p>
+                    <output class="portal-builder-url" dir="ltr" x-text="url()"></output>
+                </div>
+                <div class="portal-builder-card"><h2>محتوای صفحه</h2><label for="custom-body" class="source-sr-only">متن کامل صفحه</label><textarea id="custom-body" x-ref="body" data-field="body" data-rich-text="true" required rows="14"></textarea><p class="portal-builder-help">صفحه با هدر، نویگیشن و فوتر همین سایت نمایش داده می‌شود.</p></div>
+            </div>
+            <aside class="portal-builder-aside">
+                <div class="portal-builder-card"><h2>پیوند صفحه</h2><label for="custom-link-title">عنوان پیوند <span>اختیاری</span></label><input id="custom-link-title" x-model="form.link_title" maxlength="255" :placeholder="form.title||'همان عنوان صفحه'">
+                    <div class="portal-builder-choices"><label><input type="radio" value="text" x-model="form.link_style" :disabled="form.placements.includes('banner')">متنی</label><label><input type="radio" value="image" x-model="form.link_style">تصویری</label></div>
+                    <div class="portal-builder-image" x-show="form.link_style==='image'" x-cloak><img x-show="imageUrl" :src="imageUrl" alt="پیش‌نمایش تصویر پیوند"><label class="portal-builder-upload">بارگذاری تصویر<input type="file" accept="image/jpeg,image/png,image/webp" @change="chooseImage($event)"></label><button type="button" x-show="imageUrl" @click="removeImage()">برداشتن تصویر</button>
+                        <details @toggle="if($el.open&&!images.length)loadImages()"><summary>انتخاب از گالری</summary><div class="portal-builder-image-search"><input type="search" x-model="imageQuery" placeholder="نام تصویر" aria-label="جستجو در تصاویر"><button type="button" @click="loadImages()" :disabled="galleryBusy">جستجو</button></div><div class="portal-builder-image-grid"><template x-for="image in images" :key="image.id"><button type="button" @click="selectImage(image)" :aria-label="image.alt||image.original_name" :aria-pressed="form.link_image_media_id===image.id"><img :src="image.url" :alt="image.alt||image.original_name" loading="lazy"></button></template></div><p x-show="!galleryBusy&&!images.length">تصویری پیدا نشد.</p></details>
+                    </div>
+                </div>
+                <div class="portal-builder-card"><h2>محل نمایش پیوند</h2><div class="portal-builder-placements">@foreach(\App\Services\CustomPages::PLACEMENTS as $key=>$label)<label><input type="checkbox" value="{{ $key }}" x-model="form.placements">{{ $label }}</label>@endforeach</div><p class="portal-builder-help">چند محل را می‌توانید انتخاب کنید. بدون انتخاب محل، صفحه فقط از آدرس خودش در دسترس است.</p></div>
+                <div class="portal-builder-card"><h2>انتشار</h2><label for="custom-status">وضعیت</label><select id="custom-status" x-model="form.status"><option value="draft">پیش‌نویس</option><option value="published">منتشرشده</option><option value="archived">بایگانی</option></select><label for="custom-priority">ترتیب نمایش</label><input id="custom-priority" type="number" min="0" max="100000" x-model.number="form.priority"><button type="submit" class="portal-button" x-text="busy?'در حال ذخیره…':'ذخیره صفحه'">ذخیره صفحه</button></div>
+            </aside>
+        </fieldset>
+    </form>
+    <section class="portal-builder-card" x-show="tab==='list'" x-cloak aria-label="صفحه‌های ساخته‌شده">
+        <div class="portal-builder-list-tools"><form @submit.prevent="loadList(1)"><input type="search" x-model="q" maxlength="200" placeholder="عنوان یا مسیر صفحه" aria-label="جستجوی صفحه"><button type="submit" :disabled="loading">جستجو</button></form><label><input type="checkbox" x-model="trash" @change="loadList(1)">زباله‌دان</label></div>
+        <p role="status" x-show="loading">در حال دریافت صفحه‌ها…</p><p x-show="!loading&&!rows.length">صفحه‌ای در این فهرست وجود ندارد.</p>
+        <div class="portal-admin-table" x-show="rows.length"><table><thead><tr><th>عنوان</th><th>مسیر</th><th>وضعیت</th><th>عملیات</th></tr></thead><tbody><template x-for="row in rows" :key="row.id"><tr><td x-text="row.title"></td><td><bdi x-text="href(row.path)"></bdi></td><td x-text="({draft:'پیش‌نویس',published:'منتشرشده',archived:'بایگانی'})[row.status]"></td><td><div class="portal-builder-row-actions"><template x-if="!trash"><span><a :href="base+'?edit='+row.id">ویرایش</a><a x-show="row.status==='published'" :href="href(row.path)" target="_blank" rel="noopener">نمایش در سایت</a><button type="button" @click="remove(row)" :disabled="loading">حذف</button></span></template><button type="button" x-show="trash" @click="restore(row)" :disabled="loading">بازیابی</button></div></td></tr></template></tbody></table></div>
+        <nav class="portal-admin-pagination" x-show="meta&&meta.last_page>1" aria-label="صفحه‌های فهرست"><button type="button" @click="loadList(pageNumber-1)" :disabled="loading||pageNumber<=1">قبلی</button><span x-text="pageNumber+' / '+(meta?.last_page??1)"></span><button type="button" @click="loadList(pageNumber+1)" :disabled="loading||pageNumber>=(meta?.last_page??1)">بعدی</button></nav>
+    </section>
+</section>

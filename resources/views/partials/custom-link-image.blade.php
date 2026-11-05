@@ -1,0 +1,1 @@
+@if(($link['link_style'] ?? '')==='image' && ($customImage=$ui->image($link['image'] ?? null)))<img class="portal-custom-link-image" src="{{ $customImage }}" alt="{{ $link['title'] }}" loading="lazy">@endif

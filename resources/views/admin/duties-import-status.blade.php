@@ -1,0 +1,3 @@
+@if($context['type']!=='county' && ($dutyImport=\App\Services\UnitDuties::report()) && !empty($dutyImport['pending_source_ids']))
+<details class="portal-duty-import-status"><summary>متن منبع برای {{ count($dutyImport['pending_source_ids']) }} عنوان دریافت نشده است</summary><ul>@foreach($dutyImport['pending_source_ids'] as $sourceId)@php($sourceUnit=\App\Services\UnitDuties::sourceUnit($sourceId))@if($sourceUnit)<li><span>{{ $sourceUnit['title'] }}</span>@if($context['can_write'])<a href="{{ $moduleUrl }}/new?unit={{ $sourceId }}">افزودن متن</a>@endif</li>@endif @endforeach</ul></details>
+@endif

@@ -1,0 +1,1 @@
+<button data-command="printSection" data-command-args="&#x27;mySection&#x27;" data-command-event="click"> 🖨️ پرینت بخش مورد نظر </button><div id="mySection"><h2>عنوان گزارش</h2><p>این متن پرینت گرفته می‌شود.</p><p>تاریخ: 1403/02/15</p><p>امضا: ___________</p></div><p class="d-2a7246c8f111fc"> این متن در پرینت دیده نمی‌شود! </p>

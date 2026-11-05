@@ -1,0 +1,74 @@
+name: Personal portal regression tests
+
+on:
+  push:
+    paths:
+      - 'app/**'
+      - 'database/**'
+      - 'resources/**'
+      - 'routes/**'
+      - 'tests/**'
+      - 'composer.*'
+      - '.github/workflows/personal-portals.yml'
+  pull_request:
+    paths:
+      - 'app/**'
+      - 'database/**'
+      - 'resources/**'
+      - 'routes/**'
+      - 'tests/**'
+      - 'composer.*'
+      - '.github/workflows/personal-portals.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: personal-portals-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  owner-isolation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      mysql:
+        image: mysql:8.4
+        env:
+          MYSQL_ROOT_PASSWORD: disposable-test-password
+          MYSQL_DATABASE: ostandari_testing
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping -h 127.0.0.1 -pdisposable-test-password"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=10
+    env:
+      APP_ENV: testing
+      DB_HOST: 127.0.0.1
+      DB_PORT: 3306
+      DB_DATABASE: ostandari_testing
+      DB_USERNAME: root
+      DB_PASSWORD: disposable-test-password
+      CACHE_STORE: array
+      SESSION_DRIVER: array
+      QUEUE_CONNECTION: sync
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: shivammathur/setup-php@eb7c497e18156a6bbabfef1d3a82760b9eda3962 # v2
+        with:
+          php-version: '8.4'
+          extensions: exif, gd, intl, mbstring, pdo_mysql, dom, xml, xmlwriter, zip
+          coverage: none
+          tools: composer:v2
+      - name: Prepare writable directories
+        run: mkdir -p storage/framework/cache/data storage/framework/sessions storage/framework/views storage/logs bootstrap/cache
+      - name: Install locked dependencies
+        run: composer install --prefer-dist --no-interaction --no-progress
+      - name: Compile Blade views
+        run: php artisan view:cache
+      - name: Test personal ownership and existing workspaces
+        run: vendor/bin/phpunit --filter 'StaffPortalsTest|GovernorPersonalPortalsTest|MemberDirectoryTest|CountyWorkspaceTest|LocalRuntimeTest|MediaRestoreTest|SetupEnvironmentTest'

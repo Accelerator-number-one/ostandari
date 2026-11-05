@@ -1,0 +1,5 @@
+<section class="portal-archive-page" aria-label="{{ $title }}">
+    <form method="get" class="portal-search portal-archive-search" role="search">@if(request('news_scope'))<input type="hidden" name="news_scope" value="{{ request('news_scope') }}">@endif<label for="archive-q">جستجو در {{ $title }}</label><div><input id="archive-q" name="q" type="search" value="{{ request('q') }}" placeholder="عنوان یا واژهٔ موردنظر"><button class="portal-button" type="submit">@include('icons.search') جستجو</button></div></form>
+    <div class="portal-news-grid">@forelse($items as $item)@include('site.news-card')@empty<div class="portal-empty" role="status">مطلبی در این بخش منتشر نشده است.</div>@endforelse</div>
+    @if($meta && $meta['last_page']>1)<nav class="portal-pagination" aria-label="صفحه‌های آرشیو">@for($number=max(1,$meta['current_page']-3);$number<=min($meta['last_page'],$meta['current_page']+3);$number++)<a href="{{ request()->fullUrlWithQuery(['page'=>$number]) }}" @if($number===$meta['current_page'])aria-current="page"@endif>{{ $number }}</a>@endfor</nav>@endif
+</section>

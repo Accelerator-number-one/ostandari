@@ -1,0 +1,393 @@
+.source-content .portal-article-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 248px;
+  gap: 22px;
+  align-items: start;
+  margin-block: 18px 52px;
+}
+.portal-article-layout > * {
+  min-width: 0;
+}
+.portal-content-article {
+  padding: clamp(20px, 3vw, 38px);
+  border: 1px solid #dde7ef;
+  border-radius: 20px;
+  background: #fff;
+  color: #243f56;
+  box-shadow: 0 8px 30px #1c426908;
+  overflow-wrap: anywhere;
+}
+.portal-article-heading {
+  border-bottom: 1px solid #e5edf3;
+  padding-bottom: 22px;
+  margin-bottom: 24px;
+}
+.portal-article-labels {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  color: #547188;
+  font-size: 12px;
+}
+.portal-article-type {
+  display: inline-flex;
+  padding: 3px 11px;
+  border-radius: 6px;
+  background: #e9f5f4;
+  color: #0a706b;
+  font-weight: 700;
+}
+.portal-content-article h1 {
+  margin: 14px 0;
+  color: #123d61;
+  font-size: clamp(23px, 2.1vw, 34px);
+  line-height: 1.85;
+  font-weight: 800;
+}
+.portal-article-subtitle {
+  margin: 0 0 14px;
+  color: #536d83;
+  font-size: 15px;
+  line-height: 2;
+}
+.portal-article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  color: #61788c;
+  font-size: 12px;
+}
+.portal-content-article .portal-article-summary {
+  margin: 0 0 26px;
+  padding: 15px 20px;
+  border-inline-start: 3px solid #158f91;
+  border-radius: 10px;
+  background: #f1f7fa;
+  color: #2f526b;
+  font-size: 15px;
+  line-height: 2.2;
+  font-weight: 550;
+}
+.portal-article-cover {
+  margin: 0 0 28px;
+  width: 100%;
+  border: 1px solid #e1e9ee;
+  background: #f6f9fb;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.portal-article-cover > img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+  margin: 0;
+}
+.portal-article-body {
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+}
+.portal-content-article .portal-rich-text {
+  color: #283f52;
+  font-size: clamp(15px, 1.1vw, 17px);
+  line-height: 2.2;
+  white-space: pre-line;
+  text-align: justify;
+  overflow-wrap: break-word;
+}
+.portal-content-article .portal-rich-text :is(p, ul, ol, table, .portal-image-album) {
+  white-space: normal;
+}
+.portal-content-article .portal-rich-text > :is(p, ul, ol, blockquote) {
+  margin-block: 0 20px;
+}
+.portal-content-article .portal-rich-text :is(h2, h3, h4) {
+  color: #164568;
+  margin-block: 30px 14px;
+  line-height: 1.9;
+}
+.portal-content-article .portal-rich-text > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 24px auto;
+  border-radius: 12px;
+}
+.portal-content-article .portal-rich-text :is(ul, ol) {
+  padding-inline-start: 25px;
+}
+.portal-content-article .portal-rich-text blockquote {
+  background: #f4f8fb;
+  border-inline-start: 3px solid #4381a4;
+  padding: 14px 20px;
+  border-radius: 8px;
+}
+.portal-content-article .portal-rich-text a {
+  color: #076b91;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.portal-content-article .portal-rich-text table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92em;
+  margin-block: 24px;
+}
+.portal-content-article .portal-rich-text :is(td, th) {
+  border: 1px solid #d8e4ec;
+  padding: 10px 14px;
+  white-space: normal;
+}
+.portal-content-article .portal-rich-text th {
+  background: #edf5f9;
+  color: #234f6b;
+}
+.portal-article-footer {
+  border-top: 1px solid #e5edf3;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.portal-article-footer .portal-article-actions {
+  border: 0;
+  padding-top: 0;
+  margin-top: 0;
+}
+.portal-related-panel {
+  display: grid;
+  gap: 16px;
+  background: #fff;
+  border: 1px solid #dde7ef;
+  border-radius: 18px;
+  padding: 22px;
+}
+.portal-related-panel > :is(h2, h3) {
+  margin: 0;
+  color: #17486d;
+  font-size: 18px;
+  line-height: 1.8;
+}
+.portal-related-panel > a {
+  color: #08738e;
+  font-size: 12px;
+  font-weight: 700;
+}
+.portal-related-panel .portal-news-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 14px;
+}
+.portal-related-panel .source-news-card {
+  margin: 0;
+  min-width: 0;
+}
+.portal-related-panel .akhbar-container {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 16px;
+  border: 0;
+  border-bottom: 1px solid #e8eef3;
+  border-radius: 0;
+  box-shadow: none;
+  background: #fff;
+}
+.portal-related-panel .akhbar-container > img {
+  width: 78px;
+  height: 72px;
+  flex: 0 0 78px;
+  object-fit: cover;
+  border-radius: 9px;
+}
+.portal-related-panel .akhbar-left {
+  min-width: 0;
+  width: auto;
+  flex: 1;
+}
+.portal-related-panel .akhbar-onvan {
+  color: #244661;
+  font-size: 13px;
+  line-height: 1.95;
+  margin: 4px 0;
+}
+.portal-related-panel .akhbar-date {
+  display: none;
+}
+.portal-related-panel .source-directory {
+  display: grid;
+  gap: 12px;
+}
+.portal-article-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  color: #6b8092;
+  font-size: 12px;
+  margin-block: 20px;
+  line-height: 2;
+  overflow-wrap: anywhere;
+}
+.portal-article-breadcrumb > span {
+  display: inline-flex;
+  gap: 12px;
+  min-width: 0;
+}
+.portal-article-breadcrumb a {
+  color: #176184;
+}
+.portal-article-breadcrumb > [aria-current] {
+  display: block;
+  flex: 1 1 200px;
+}
+@media (max-width: 1000px) {
+  .source-content .portal-article-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .portal-related-panel {
+    margin-top: 4px;
+  }
+}
+@media (max-width: 600px) {
+  .portal-content-article {
+    padding: 20px 16px;
+    border-radius: 14px;
+  }
+  .portal-content-article h1 {
+    font-size: 23px;
+  }
+  .portal-content-article .portal-article-summary {
+    padding: 12px 14px;
+  }
+  .portal-related-panel {
+    padding: 18px;
+  }
+}
+@media print {
+  .portal-article-layout > aside,
+  .portal-article-footer button,
+  .portal-article-breadcrumb {
+    display: none;
+  }
+  .source-content .portal-article-layout {
+    display: block;
+  }
+  .portal-content-article {
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+  }
+}
+
+/* Content keeps the available column width, including paragraphs imported from editors. */
+.portal-content-article .portal-rich-text :is(p, div) {
+  max-width: 100%;
+  min-width: 0;
+}
+.portal-content-article .portal-rich-text p:empty {
+  display: none;
+}
+@media (max-width: 600px) {
+  .portal-content-article .portal-rich-text {
+    text-align: start;
+    font-size: 16px;
+    line-height: 2.1;
+  }
+}
+
+/* Article elements must not inherit the legacy site's decorative footer or fixed link tiles. */
+.portal-content-article > .portal-article-footer {
+  position: static;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  background: none;
+  color: inherit;
+  box-sizing: border-box;
+}
+.portal-content-article > .portal-article-footer .source-reference {
+  padding: 0;
+  margin: 0;
+  color: #60768a;
+  font-size: 13px;
+  line-height: 2;
+}
+.portal-related-panel .source-directory {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+}
+.portal-related-panel .source-directory .mz-link-btn {
+  display: block;
+  position: static;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 0;
+  margin: 0;
+  padding: 14px 0;
+  border: 0;
+  border-bottom: 1px solid #e3ebf0;
+  border-radius: 0;
+  background: transparent;
+  color: #31536d;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 2;
+  text-align: start;
+  text-decoration: none;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  box-shadow: none;
+  transform: none;
+  box-sizing: border-box;
+}
+.portal-related-panel .source-directory .mz-link-btn:hover {
+  color: #087782;
+}
+.portal-related-panel .source-directory .mz-link-btn:focus-visible {
+  outline: 2px solid #168e95;
+  outline-offset: 2px;
+}
+.portal-related-panel .akhbar-container {
+  height: auto;
+  min-height: 0;
+  align-items: start;
+}
+.portal-related-panel .akhbar-container > img {
+  width: 58px;
+  height: 56px;
+  flex-basis: 58px;
+}
+.portal-related-panel .akhbar-left {
+  display: block;
+  position: static;
+  height: auto;
+  padding: 0;
+}
+.portal-related-panel .akhbar-onvan {
+  position: static;
+  inset: auto;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  width: auto;
+  height: auto;
+  max-height: none;
+  margin-block: 5px;
+  overflow: hidden;
+}
+.portal-related-panel .portal-news-card time,
+.portal-related-panel .portal-eyebrow {
+  display: block;
+  position: static;
+  margin: 0;
+  height: auto;
+  color: #58758a;
+  font-size: 10px;
+  line-height: 1.8;
+}

@@ -1,0 +1,2663 @@
+{
+  "source_url": "https://ostan-mz.ir/",
+  "snapshot_date": "1405-07-26",
+  "source_sha256": "e833edf3ed3c2a1d9d9323328d8d37a16ad0a3d5e2cf954ead6997a4f29c6184",
+  "poll": {
+    "question": "مطالب سایت را چگونه ارزیابی می کنید؟",
+    "options": [
+      "بسیار مفید و کاربردی",
+      "به طور کلی از سایت راضی هستم",
+      "تا حدودی مفید",
+      "نیاز به بازیابی دوباره"
+    ]
+  },
+  "live_verified": false,
+  "pages": [
+    {
+      "id": "home",
+      "title": "صفحه اصلی",
+      "href": "/",
+      "kind": "home",
+      "source_url": "https://ostan-mz.ir/SariOstandari",
+      "children": []
+    },
+    {
+      "id": "menu-195",
+      "title": "سامانه شفافیت",
+      "href": "/transparency",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=195&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-64",
+      "title": "معاونین استاندار مازندران",
+      "href": "/section/menu-64",
+      "kind": "managers",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=64&OrgId=1",
+      "children": [],
+      "group": "2"
+    },
+    {
+      "id": "menu-61",
+      "title": "مدیران ستادی استانداری مازندران",
+      "href": "/section/menu-61",
+      "kind": "managers",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=61&OrgId=1",
+      "children": [],
+      "group": "1"
+    },
+    {
+      "id": "menu-63",
+      "title": "فرمانداران مازندران",
+      "href": "/section/menu-63",
+      "kind": "managers",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=63&OrgId=1",
+      "children": [],
+      "group": "4"
+    },
+    {
+      "id": "menu-109",
+      "title": "مشاورین استاندار",
+      "href": "/section/menu-109",
+      "kind": "managers",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=109&OrgId=1",
+      "children": [],
+      "group": "6"
+    },
+    {
+      "id": "menu-62",
+      "title": "مدیران ادارات و دستگاههای اجرایی",
+      "href": "/section/menu-62",
+      "kind": "managers",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=62&OrgId=1",
+      "children": [],
+      "group": "3"
+    },
+    {
+      "id": "menu-198",
+      "title": "مدیران روابط عمومی استان",
+      "href": "/section/menu-198",
+      "kind": "managers",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=198&OrgId=1",
+      "children": [],
+      "group": "5"
+    },
+    {
+      "id": "managers",
+      "title": "مدیران استان",
+      "href": "/managers",
+      "kind": "managers",
+      "source_url": null,
+      "children": ["menu-64", "menu-61", "menu-63", "menu-109", "menu-62", "menu-198"]
+    },
+    {
+      "id": "menu-5",
+      "title": "اطلاعات عمومی",
+      "href": "/section/menu-5",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=5&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "counties",
+      "title": "شهرستان ها",
+      "href": "/counties",
+      "kind": "page",
+      "source_url": null,
+      "children": [
+        "county-babolsar",
+        "county-neka",
+        "county-qaemshahr",
+        "county-abbasabad",
+        "county-galugah",
+        "county-behshahr",
+        "county-miandorud",
+        "county-nur",
+        "county-kelardasht",
+        "county-amol",
+        "county-juybar",
+        "county-savadkuh",
+        "county-fereydunkenar",
+        "county-chalus",
+        "county-mahmudabad",
+        "county-babol",
+        "county-simorgh",
+        "county-savadkuh-shomali",
+        "county-sari",
+        "county-ramsar",
+        "county-tonekabon",
+        "county-noshahr"
+      ]
+    },
+    {
+      "id": "about",
+      "title": "آشنایی با مازندران",
+      "href": "/about",
+      "kind": "page",
+      "source_url": null,
+      "children": ["menu-5", "counties"]
+    },
+    {
+      "id": "menu-1",
+      "title": "خدمات الکترونیکی استانداری مازندران",
+      "href": "/section/menu-1",
+      "kind": "services",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=1&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-8",
+      "title": "خدمات الکترونیکی",
+      "href": "/section/menu-8",
+      "kind": "services",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=8&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-9",
+      "title": "پیوندها",
+      "href": "/section/menu-9",
+      "kind": "links",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=9&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-188",
+      "title": "میز ارتباطات مردمی وزارت کشور",
+      "href": "/section/menu-188",
+      "kind": "services",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=188&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-171",
+      "title": "سامانه مدیریت خدمات دولت",
+      "href": "/section/menu-171",
+      "kind": "services",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=171&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-197",
+      "title": "پیشخوان ارباب رجوع",
+      "href": "/section/menu-197",
+      "kind": "services",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=197&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "services",
+      "title": "خدمات",
+      "href": "/services",
+      "kind": "page",
+      "source_url": null,
+      "children": ["menu-1", "menu-8", "menu-9", "menu-188", "menu-171", "menu-197"]
+    },
+    {
+      "id": "menu-49",
+      "title": "شرح وظایف و ماموریتهای اساسی استانداری ها",
+      "href": "/section/menu-49",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=49&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-50",
+      "title": "معاونت سیاسی،امنیتی و اجتماعی",
+      "href": "/section/menu-50",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=50&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-52",
+      "title": "معاون هماهنگی امور اقتصادی",
+      "href": "/section/menu-52",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=52&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-190",
+      "title": "معاونت توسعه مدیریت و منابع انسانی",
+      "href": "/section/menu-190",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=190&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-51",
+      "title": "معاونت هماهنگی امور عمرانی",
+      "href": "/section/menu-51",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=51&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "duties-group-1",
+      "title": "استاندار و معاونتها",
+      "href": "/section/duties-group-1",
+      "kind": "page",
+      "source_url": null,
+      "children": ["menu-49", "menu-50", "menu-52", "menu-190", "menu-51"]
+    },
+    {
+      "id": "menu-43",
+      "title": "دفتر استاندار و روابط عمومی و بین الملل :",
+      "href": "/section/menu-43",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=43&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-44",
+      "title": "دفتر امور بانوان و خانواده",
+      "href": "/section/menu-44",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=44&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-45",
+      "title": "دفتر ، مدیریت عملکرد، بازرسی و امور حقوقی",
+      "href": "/section/menu-45",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=45&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-46",
+      "title": "اداره کل حراست",
+      "href": "/section/menu-46",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=46&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-47",
+      "title": "هسته گزینش",
+      "href": "/section/menu-47",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=47&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "duties-group-2",
+      "title": "حوزه استاندار",
+      "href": "/section/duties-group-2",
+      "kind": "page",
+      "source_url": null,
+      "children": ["menu-43", "menu-44", "menu-45", "menu-46", "menu-47"]
+    },
+    {
+      "id": "menu-37",
+      "title": "دفتر برنامه ریزی ، نوسازی وتحول اداری",
+      "href": "/section/menu-37",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=37&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-38",
+      "title": "مدیریت فناوری اطلاعات ، امنیت فضای مجازی و شبکه دولت",
+      "href": "/section/menu-38",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=38&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-39",
+      "title": "اداره کل امور اداری و مالی",
+      "href": "/section/menu-39",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=39&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "duties-group-3",
+      "title": "معاونت توسعه مدیریت و منابع انسانی",
+      "href": "/section/duties-group-3",
+      "kind": "page",
+      "source_url": null,
+      "children": ["menu-37", "menu-38", "menu-39"]
+    },
+    {
+      "id": "menu-22",
+      "title": "اداره کل سیاسی و انتخابات",
+      "href": "/section/menu-22",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=22&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-23",
+      "title": "اداره کل امور اجتماعی و فرهنگی",
+      "href": "/section/menu-23",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=23&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-34",
+      "title": "اداره کل امور امنیتی و انتظامی",
+      "href": "/section/menu-34",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=34&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-33",
+      "title": "اداره کل پدافند غیرعامل",
+      "href": "/section/menu-33",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=33&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-35",
+      "title": "مدیریت امور اتباع و مهاجرین",
+      "href": "/section/menu-35",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=35&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "duties-group-4",
+      "title": "معاونت سیاسی",
+      "href": "/section/duties-group-4",
+      "kind": "page",
+      "source_url": null,
+      "children": ["menu-22", "menu-23", "menu-34", "menu-33", "menu-35"]
+    },
+    {
+      "id": "menu-40",
+      "title": "دفتر جذب و حمایت از سرمایه گذاری",
+      "href": "/section/menu-40",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=40&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-41",
+      "title": "دفتر هماهنگی امور اقتصادی",
+      "href": "/section/menu-41",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=41&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "duties-group-5",
+      "title": "معاونت هماهنگی امور اقتصادی",
+      "href": "/section/duties-group-5",
+      "kind": "page",
+      "source_url": null,
+      "children": ["menu-40", "menu-41"]
+    },
+    {
+      "id": "menu-29",
+      "title": "اداره کل شهری و شوراها",
+      "href": "/section/menu-29",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=29&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-30",
+      "title": "اداره کل روستایی و شوراها",
+      "href": "/section/menu-30",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=30&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-31",
+      "title": "اداره کل مدیریت بحران",
+      "href": "/section/menu-31",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=31&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-32",
+      "title": "دفتر فنی ،امور عمرانی و حمل ونقل و ترافیک",
+      "href": "/section/menu-32",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=32&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "duties-group-6",
+      "title": "معاونت هماهنگی امور عمرانی",
+      "href": "/section/duties-group-6",
+      "kind": "page",
+      "source_url": null,
+      "children": ["menu-29", "menu-30", "menu-31", "menu-32"]
+    },
+    {
+      "id": "duties",
+      "title": "شرح وظایف واحدها",
+      "href": "/duties",
+      "kind": "page",
+      "source_url": null,
+      "children": [
+        "duties-group-1",
+        "duties-group-2",
+        "duties-group-3",
+        "duties-group-4",
+        "duties-group-5",
+        "duties-group-6"
+      ]
+    },
+    {
+      "id": "menu-176",
+      "title": "پشتیبانی شبکه دولت",
+      "href": "/section/menu-176",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=176&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-177",
+      "title": "رهگیری",
+      "href": "/section/menu-177",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=177&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "agreement",
+      "title": "بیانیه سطح توافق خدمات",
+      "href": "/service-agreement",
+      "kind": "page",
+      "source_url": null,
+      "children": ["menu-176", "menu-177"]
+    },
+    {
+      "id": "menu-173",
+      "title": "نظرسنجی دستگاه های اجرایی",
+      "href": "/polls",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=173&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "contact",
+      "title": "تماس با ما",
+      "href": "/contact",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ContactUs",
+      "children": []
+    },
+    {
+      "id": "register",
+      "title": "ثبت نام",
+      "href": "/register",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Account/RegisterUser",
+      "children": []
+    },
+    {
+      "id": "sitemap",
+      "title": "نقشه سایت",
+      "href": "/sitemap",
+      "kind": "sitemap",
+      "source_url": "https://ostan-mz.ir/Home/SitemapPersion",
+      "children": [
+        "home",
+        "menu-195",
+        "managers",
+        "about",
+        "services",
+        "duties",
+        "agreement",
+        "menu-173",
+        "districts",
+        "units",
+        "useful",
+        "regulations",
+        "contact"
+      ]
+    },
+    {
+      "id": "forum",
+      "title": "تالار گفتگو",
+      "href": "/forum",
+      "kind": "forum",
+      "source_url": "https://ostan-mz.ir/Home/TalarGoftegu",
+      "children": []
+    },
+    {
+      "id": "track",
+      "title": "پیگیری درخواست",
+      "href": "/track",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowSituationRegisterFrm",
+      "children": []
+    },
+    {
+      "id": "menu-174",
+      "title": "پشتیبانی از افراد کم توان",
+      "href": "/accessibility",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=174",
+      "children": []
+    },
+    {
+      "id": "english",
+      "title": "En",
+      "href": "/en",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/En/HomeEn",
+      "children": []
+    },
+    {
+      "id": "rss",
+      "title": "RSS",
+      "href": "/rss",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/RssMvc/Rss",
+      "children": []
+    },
+    {
+      "id": "menu-170",
+      "title": "عملکرد دستگاه",
+      "href": "/performance",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=170&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-167",
+      "title": "بیانیه حریم خصوصی",
+      "href": "/privacy",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=167&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-169",
+      "title": "بیانیه راهبرد مشارکت",
+      "href": "/participation",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=169&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "menu-168",
+      "title": "بیانیه سطح توافق خدمات",
+      "href": "/service-agreement/statement",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=168&OrgId=1",
+      "children": []
+    },
+    {
+      "id": "news",
+      "title": "اخبار و اطلاعیه‌ها",
+      "href": "/news",
+      "kind": "news",
+      "source_url": "https://ostan-mz.ir/",
+      "children": [
+        "article-173526",
+        "article-173525",
+        "article-173508",
+        "article-173507",
+        "article-173505",
+        "article-173504",
+        "article-173503",
+        "article-173502",
+        "article-173497",
+        "article-173486"
+      ]
+    },
+    {
+      "id": "regulations",
+      "title": "قوانین و مقررات",
+      "href": "/regulations",
+      "kind": "documents",
+      "source_url": "https://ostan-mz.ir/",
+      "children": [
+        "article-73836",
+        "article-73837",
+        "article-73844",
+        "article-73840",
+        "article-73839",
+        "article-73838",
+        "article-73841"
+      ]
+    },
+    {
+      "id": "information",
+      "title": "دسترسی آزاد به اطلاعات",
+      "href": "/information",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/",
+      "children": ["regulations"]
+    },
+    {
+      "id": "quick",
+      "title": "دسترسی سریع",
+      "href": "/quick-access",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/",
+      "children": ["menu-195", "managers", "about", "services", "duties", "agreement", "menu-173"]
+    },
+    {
+      "id": "links",
+      "title": "پیوندها",
+      "href": "/links",
+      "kind": "links",
+      "source_url": "https://ostan-mz.ir/",
+      "children": []
+    },
+    {
+      "id": "governors",
+      "title": "استانداران",
+      "href": "/governors",
+      "kind": "governors",
+      "source_url": "https://ostan-mz.ir/",
+      "children": []
+    },
+    {
+      "id": "faq",
+      "title": "پرسش‌های متداول",
+      "href": "/faq",
+      "kind": "faqs",
+      "source_url": "http://ostan-mz.ir//Home/ShowFAQList?OrgId=1",
+      "children": []
+    },
+    {
+      "id": "site-poll",
+      "title": "نظرسنجی سایت",
+      "href": "/polls/site",
+      "kind": "polls",
+      "source_url": "https://ostan-mz.ir/",
+      "children": []
+    },
+    {
+      "id": "districts",
+      "title": "بخشداری‌ها",
+      "href": "/districts",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/",
+      "children": ["districts-1", "districts-2", "districts-3"]
+    },
+    {
+      "id": "units",
+      "title": "واحدهای ستادی",
+      "href": "/units",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/",
+      "children": [
+        "units-1",
+        "units-2",
+        "units-3",
+        "units-4",
+        "units-5",
+        "units-6",
+        "units-7",
+        "units-8",
+        "units-9",
+        "units-10",
+        "units-11",
+        "units-12",
+        "units-13",
+        "units-14",
+        "units-15",
+        "units-16",
+        "units-17",
+        "units-18",
+        "units-19",
+        "units-20",
+        "units-21"
+      ]
+    },
+    {
+      "id": "county-babolsar",
+      "title": "فرمانداری شهرستان بابلسر",
+      "href": "/office?name=babolsar",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/babolsar",
+      "children": []
+    },
+    {
+      "id": "county-neka",
+      "title": "فرمانداری شهرستان نکا",
+      "href": "/office?name=neka",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/neka",
+      "children": []
+    },
+    {
+      "id": "county-qaemshahr",
+      "title": "فرماندار شهرستان قائم شهر",
+      "href": "/office?name=qaemshahr",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/ghaemshahr",
+      "children": []
+    },
+    {
+      "id": "county-abbasabad",
+      "title": "فرمانداری شهرستان عباس آباد",
+      "href": "/office?name=abbasabad",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/abbasabad",
+      "children": []
+    },
+    {
+      "id": "county-galugah",
+      "title": "فرمانداری شهرستان گلوگاه",
+      "href": "/office?name=galugah",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/galugah",
+      "children": []
+    },
+    {
+      "id": "county-behshahr",
+      "title": "فرمانداری شهرستان بهشهر",
+      "href": "/office?name=behshahr",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/behshahr",
+      "children": []
+    },
+    {
+      "id": "county-miandorud",
+      "title": "فرمانداری شهرستان میاندورود",
+      "href": "/office?name=miandorud",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/miandoroud",
+      "children": []
+    },
+    {
+      "id": "county-nur",
+      "title": "فرمانداری شهرستان نور",
+      "href": "/office?name=nur",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/noor",
+      "children": []
+    },
+    {
+      "id": "county-kelardasht",
+      "title": "فرمانداری شهرستان کلاردشت",
+      "href": "/office?name=kelardasht",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/kelardasht",
+      "children": []
+    },
+    {
+      "id": "county-amol",
+      "title": "فرمانداری ویژه شهرستان آمل",
+      "href": "/office?name=amol",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/amol",
+      "children": []
+    },
+    {
+      "id": "county-juybar",
+      "title": "فرمانداری شهرستان جویبار",
+      "href": "/office?name=juybar",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/jouybar",
+      "children": []
+    },
+    {
+      "id": "county-savadkuh",
+      "title": "فرمانداری شهرستان سوادکوه",
+      "href": "/office?name=savadkuh",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/savadkooh",
+      "children": []
+    },
+    {
+      "id": "county-fereydunkenar",
+      "title": "فرمانداری شهرستان فریدونکنار",
+      "href": "/office?name=fereydunkenar",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/fereydonkenar",
+      "children": []
+    },
+    {
+      "id": "county-chalus",
+      "title": "فرمانداری شهرستان چالوس",
+      "href": "/office?name=chalus",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/chaloos",
+      "children": []
+    },
+    {
+      "id": "county-mahmudabad",
+      "title": "فرمانداری شهرستان محمودآباد",
+      "href": "/office?name=mahmudabad",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/mahmoodabad",
+      "children": []
+    },
+    {
+      "id": "county-babol",
+      "title": "فرمانداری ویژه شهرستان بابل",
+      "href": "/office?name=babol",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/babol",
+      "children": []
+    },
+    {
+      "id": "county-simorgh",
+      "title": "فرمانداری شهرستان سیمرغ",
+      "href": "/office?name=simorgh",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/simorgh",
+      "children": []
+    },
+    {
+      "id": "county-savadkuh-shomali",
+      "title": "فرمانداری سوادکوه شمالی",
+      "href": "/office?name=savadkuh-shomali",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/savadkoohshomali",
+      "children": []
+    },
+    {
+      "id": "county-sari",
+      "title": "فرمانداری شهرستان ساری",
+      "href": "/office?name=sari",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/sari",
+      "children": []
+    },
+    {
+      "id": "county-ramsar",
+      "title": "فرمانداری شهرستان رامسر",
+      "href": "/office?name=ramsar",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/ramsar",
+      "children": []
+    },
+    {
+      "id": "county-tonekabon",
+      "title": "فرمانداری ویژه تنکابن",
+      "href": "/office?name=tonekabon",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/tonekabon",
+      "children": []
+    },
+    {
+      "id": "county-noshahr",
+      "title": "فرمانداری شهرستان نوشهر",
+      "href": "/office?name=noshahr",
+      "kind": "county",
+      "source_url": "https://ostan-mz.ir/noshahr",
+      "children": []
+    },
+    {
+      "id": "districts-1",
+      "title": "بخشداری مرکزی شهرستان سوادکوه",
+      "href": "/section/districts-1",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/bsavadkooh",
+      "children": []
+    },
+    {
+      "id": "districts-2",
+      "title": "بخشدار مرکزی شهرستان سوادکوه شمالی",
+      "href": "/section/districts-2",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/bakhshdari-markazi-savadkoohshomali",
+      "children": []
+    },
+    {
+      "id": "districts-3",
+      "title": "بخشداری کلار",
+      "href": "/section/districts-3",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/kelarabad",
+      "children": []
+    },
+    {
+      "id": "units-1",
+      "title": "دفتر امور ایثارگران",
+      "href": "/section/units-1",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-2",
+      "title": "دفتر جذب و حمایت از سرمایه گذاری",
+      "href": "/section/units-2",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/jazb",
+      "children": []
+    },
+    {
+      "id": "units-3",
+      "title": "دفتر برنامه ریزی، نوسازی و تحول اداری",
+      "href": "/section/units-3",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-4",
+      "title": "اداره کل اداری و مالی",
+      "href": "/section/units-4",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-5",
+      "title": "دفتر هماهنگی امور اقتصادی",
+      "href": "/section/units-5",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-6",
+      "title": "دفتر امور اجتماعی و فرهنگی",
+      "href": "/section/units-6",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-7",
+      "title": "دفتر امور بانوان و خانواده",
+      "href": "/section/units-7",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/banovan",
+      "children": []
+    },
+    {
+      "id": "units-8",
+      "title": "درگاه الکترونیک حقوق شهروندی",
+      "href": "/section/units-8",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-9",
+      "title": "میز خدمت الکترونیکی",
+      "href": "/section/units-9",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-10",
+      "title": "دفتر امور روستایی و شورا ها",
+      "href": "/section/units-10",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-11",
+      "title": "هسته گزینش استانداری مازندران",
+      "href": "/section/units-11",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-12",
+      "title": "انتخابات 98",
+      "href": "/section/units-12",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-13",
+      "title": "اداره کل دفتر فنی، امور عمرانی، حمل نقل و ترافیک",
+      "href": "/section/units-13",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-14",
+      "title": "شورای هماهنگی مبارزه با مواد مخدر مازندران",
+      "href": "/section/units-14",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-15",
+      "title": "مدیریت امور اتباع و مهاجرین خارجی",
+      "href": "/section/units-15",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-16",
+      "title": "شورای اقامه نماز استانداری مازندران",
+      "href": "/section/units-16",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-17",
+      "title": "فناوری اطلاعات و شبکه دولت",
+      "href": "/section/units-17",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/it",
+      "children": []
+    },
+    {
+      "id": "units-18",
+      "title": "دفتر امور شهری و شوراها",
+      "href": "/section/units-18",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/shahri",
+      "children": []
+    },
+    {
+      "id": "units-19",
+      "title": "دفتر بازرسی ، مدیریت عملکرد و امور حقوقی",
+      "href": "/section/units-19",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-20",
+      "title": "اداره کل پدافند غیر عامل استان",
+      "href": "/section/units-20",
+      "kind": "page",
+      "source_url": null,
+      "children": []
+    },
+    {
+      "id": "units-21",
+      "title": "اداره کل مدیریت بحران",
+      "href": "/section/units-21",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/bohran",
+      "children": []
+    },
+    {
+      "id": "article-173526",
+      "title": "استاندار مازندران خبر داد: تخصیص ۱۵ همت اعتبار برای آغاز عملیات اجرایی نیروگاه ۱۰۰ مگاواتی نوشهر",
+      "href": "/section/article-173526",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/173526",
+      "children": [],
+      "record_slug": "official-news-173526",
+      "record_type": "news"
+    },
+    {
+      "id": "article-173525",
+      "title": "استاندار مازندران: آغاز عملیات زباله برداری و بسترسازی برای احداث سایت کمپوست مدرن شهرستان نوشهر",
+      "href": "/section/article-173525",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/173525",
+      "children": [],
+      "record_slug": "official-news-173525",
+      "record_type": "news"
+    },
+    {
+      "id": "article-173508",
+      "title": "تجلیل استاندار مازندران از محمد لائینی، حافظ کل قرآن کریم در شورای اداری استان",
+      "href": "/section/article-173508",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/173508",
+      "children": [],
+      "record_slug": "official-news-173508",
+      "record_type": "news"
+    },
+    {
+      "id": "article-173507",
+      "title": "یونسی: انسجام مدیریتی و همدلی دستگاه‌ها، مازندران را در ارزیابی وزارت کشور به جایگاه برتر رساند",
+      "href": "/section/article-173507",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/173507",
+      "children": [],
+      "record_slug": "official-news-173507",
+      "record_type": "news"
+    },
+    {
+      "id": "article-173505",
+      "title": "تعطیلی ادارات، بانک‌ها، دانشگاه ها و مدارس شهرستان ساری در روز یکشنبه ۲۶ مهر همزمان با برگزاری رزمایش «جان‌فدایان»",
+      "href": "/section/article-173505",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/173505",
+      "children": [],
+      "record_slug": "official-news-173505",
+      "record_type": "news"
+    },
+    {
+      "id": "article-173504",
+      "title": "ضرورت تدوین نقشه راه جامع گردشگری مازندران با محوریت دریا و سرمایه‌گذاری",
+      "href": "/section/article-173504",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/173504",
+      "children": [],
+      "record_slug": "official-news-173504",
+      "record_type": "news"
+    },
+    {
+      "id": "article-173503",
+      "title": "صادرات مرکبات مازندران در مسیر رونق؛ گام‌های تازه برای رفع موانع و حمایت از کشاورزان",
+      "href": "/section/article-173503",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/173503",
+      "children": [],
+      "record_slug": "official-news-173503",
+      "record_type": "news"
+    },
+    {
+      "id": "article-173502",
+      "title": "اطلاعیه محدودیت‌های ترافیکی مراسم جان‌فدایان ساری",
+      "href": "/section/article-173502",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/173502",
+      "children": [],
+      "record_slug": "official-news-173502",
+      "record_type": "news"
+    },
+    {
+      "id": "article-173497",
+      "title": "استاندار مازندران در دیدار با پرستاران: بیمارستان زارع ساری در مسیر نوسازی و انتقال؛ پیگیری برای رفع موانع مالی",
+      "href": "/section/article-173497",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/173497",
+      "children": [],
+      "record_slug": "official-news-173497",
+      "record_type": "news"
+    },
+    {
+      "id": "article-173486",
+      "title": "استاندار مازندران: منافع مولدسازی اراضی ۲۰ هکتاری باید به مردم فریدون‌کنار برسد و حق مردم تضمین گردد",
+      "href": "/section/article-173486",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/173486",
+      "children": [],
+      "record_slug": "official-news-173486",
+      "record_type": "news"
+    },
+    {
+      "id": "article-149",
+      "title": "اخبار مناقصات و مزایدات استانداری مازندران و واحد های تابعه را از این قسمت دنبال نمایید",
+      "href": "/section/article-149",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/149",
+      "children": [],
+      "record_slug": "official-tender-149",
+      "record_type": "tender"
+    },
+    {
+      "id": "tenders",
+      "title": "مناقصه‌ها و مزایده‌ها",
+      "href": "/tenders",
+      "kind": "tenders",
+      "source_url": "https://ostan-mz.ir/",
+      "children": ["article-149"]
+    },
+    {
+      "id": "article-73836",
+      "title": "متن قانون انتشار و دسترسی آزاد به اطلاعات",
+      "href": "/section/article-73836",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/73836",
+      "children": [],
+      "record_slug": "official-document-73836",
+      "record_type": "document"
+    },
+    {
+      "id": "article-73837",
+      "title": "آیین‌نامه اجرایی قانون انتشار و دسترسی آزاد به اطلاعات",
+      "href": "/section/article-73837",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/73837",
+      "children": [],
+      "record_slug": "official-document-73837",
+      "record_type": "document"
+    },
+    {
+      "id": "article-73844",
+      "title": "دستورالعمل تفویض اختیارات وزارت کشور در خصوص صدور مجوز برگزاری تجمعات",
+      "href": "/section/article-73844",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/73844",
+      "children": [],
+      "record_slug": "official-document-73844",
+      "record_type": "document"
+    },
+    {
+      "id": "article-73840",
+      "title": "ایثارگران در قانون برنامه ششم توسعه",
+      "href": "/section/article-73840",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/73840",
+      "children": [],
+      "record_slug": "official-document-73840",
+      "record_type": "document"
+    },
+    {
+      "id": "article-73839",
+      "title": "ایثارگران درقانون جامع خدمات رسانی به ایثارگران",
+      "href": "/section/article-73839",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/73839",
+      "children": [],
+      "record_slug": "official-document-73839",
+      "record_type": "document"
+    },
+    {
+      "id": "article-73838",
+      "title": "آیین نامه اجرایی ماده (٨) قانون انتشار و دسترسی آزاد به اطلاعات",
+      "href": "/section/article-73838",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/73838",
+      "children": [],
+      "record_slug": "official-document-73838",
+      "record_type": "document"
+    },
+    {
+      "id": "article-73841",
+      "title": "موارد مرتبط با وظایف اداره کل توسعه منابع انسانی پیرامون حقوق شهروندی در نظام اداری",
+      "href": "/section/article-73841",
+      "kind": "article",
+      "source_url": "https://ostan-mz.ir/news/73841",
+      "children": [],
+      "record_slug": "official-document-73841",
+      "record_type": "document"
+    },
+    {
+      "id": "call-72",
+      "title": "اطلاعیه پذیرفته شدگان نهایی آزمون استخدامی",
+      "href": "/section/call-72",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetaisFarakhan?PublicityId=72",
+      "children": []
+    },
+    {
+      "id": "call-71",
+      "title": "اعلام نتایج مرحله عملی آزمون استخدامی پیمانی آتش نشانان شهرداری‌های استان",
+      "href": "/section/call-71",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetaisFarakhan?PublicityId=71",
+      "children": []
+    },
+    {
+      "id": "call-69",
+      "title": "دوازدهمین امتحان مشترک فراگیر دستگاه های اجرایی کشور",
+      "href": "/section/call-69",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetaisFarakhan?PublicityId=69",
+      "children": []
+    },
+    {
+      "id": "link-10f12438",
+      "title": "ستاد اقامه نماز مازندران",
+      "href": "/section/link-10f12438",
+      "kind": "external",
+      "source_url": "https://www.namaz.ir/mazandaran",
+      "children": []
+    },
+    {
+      "id": "link-1dc99a95",
+      "title": "پایگاه اطلاعات قرارداد های کشور",
+      "href": "/section/link-1dc99a95",
+      "kind": "external",
+      "source_url": "https://cdb.mporg.ir/",
+      "children": []
+    },
+    {
+      "id": "link-eaa6201f",
+      "title": "درگاه الکترونیک حقوق شهروندی",
+      "href": "/section/link-eaa6201f",
+      "kind": "page",
+      "source_url": "http://ostan-mz.ir/citizensrights",
+      "children": []
+    },
+    {
+      "id": "call-66",
+      "title": "ظرفیت ها و فرصت های سرمایه گذاری مازندران",
+      "href": "/section/call-66",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetaisFarakhan?PublicityId=66",
+      "children": []
+    },
+    {
+      "id": "call-55",
+      "title": "رویداد جایزه جوانی جمعیت",
+      "href": "/section/call-55",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetaisFarakhan?PublicityId=55",
+      "children": []
+    },
+    {
+      "id": "link-189cdcfd",
+      "title": "سامانه نظر سنجی دستگاه های استان",
+      "href": "/section/link-189cdcfd",
+      "kind": "external",
+      "source_url": "https://mazandost.ir/comment.php",
+      "children": []
+    },
+    {
+      "id": "link-95739125",
+      "title": "پرسش های متداول",
+      "href": "/section/link-95739125",
+      "kind": "page",
+      "source_url": "http://ostan-mz.ir//Home/ShowFAQList?OrgId=1",
+      "children": []
+    },
+    {
+      "id": "call-34",
+      "title": "ثبت نام متقاضیان امریه سربازی",
+      "href": "/section/call-34",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetaisFarakhan?PublicityId=34",
+      "children": []
+    },
+    {
+      "id": "call-61",
+      "title": "فرم ثبت ایده",
+      "href": "/section/call-61",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetaisFarakhan?PublicityId=61",
+      "children": []
+    },
+    {
+      "id": "call-60",
+      "title": "فراخوان پسماند",
+      "href": "/section/call-60",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetaisFarakhan?PublicityId=60",
+      "children": []
+    },
+    {
+      "id": "useful",
+      "title": "پیوندهای مفید",
+      "href": "/section/useful",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/",
+      "children": [
+        "call-72",
+        "call-71",
+        "call-69",
+        "link-10f12438",
+        "link-1dc99a95",
+        "link-eaa6201f",
+        "call-66",
+        "call-55",
+        "link-189cdcfd",
+        "link-95739125",
+        "call-34",
+        "call-61",
+        "call-60"
+      ]
+    },
+    {
+      "id": "gallery-272",
+      "title": "نشست استاندار مازندران با نمایندگان احزاب و تشکل‌ها و جمعی از جوانان و بانوان فعال سیاسی",
+      "href": "/section/gallery-272",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=272",
+      "children": []
+    },
+    {
+      "id": "gallery-271",
+      "title": "بازدید دکتر یونسی، استاندار مازندران از طرح های نیمه تمام نور و محمودآباد",
+      "href": "/section/gallery-271",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=271",
+      "children": []
+    },
+    {
+      "id": "gallery-270",
+      "title": "بازدید استاندار مازندران از پل زیر قوسی و سد گلورد",
+      "href": "/section/gallery-270",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=270",
+      "children": []
+    },
+    {
+      "id": "gallery-267",
+      "title": "معارفه استاندار مازندران با حضور وزیر کشور و نماینده ولی فقیه در استان",
+      "href": "/section/gallery-267",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=267",
+      "children": []
+    },
+    {
+      "id": "gallery-263",
+      "title": "آیین کلنگ‌زنی احداث تصفیه خانه شهرک سردار شهید سلیمانی گلوگاه با حضور استاندار مازندران همزمان با هفته دولت",
+      "href": "/section/gallery-263",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=263",
+      "children": []
+    },
+    {
+      "id": "gallery-262",
+      "title": "مراسم افتتاحیه کارخانه تولید آرد گلوگاه با حضور استاندار در هفته دولت",
+      "href": "/section/gallery-262",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=262",
+      "children": []
+    },
+    {
+      "id": "gallery-261",
+      "title": "همزمان با هفته دولت؛ صورت گرفت: آغاز عملیات اجرایی و افتتاح 131 پروژه راهداری استان در قائم شهر با حضور استاندار",
+      "href": "/section/gallery-261",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=261",
+      "children": []
+    },
+    {
+      "id": "gallery-260",
+      "title": "بازدید استاندار از هیئآت مذهبی مازندران در مشهد مقدس در ایام پایانی ماه صفر",
+      "href": "/section/gallery-260",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=260",
+      "children": []
+    },
+    {
+      "id": "gallery-246",
+      "title": "آئین تکریم و معارفه فرماندهی انتظامی مازندران",
+      "href": "/section/gallery-246",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=246",
+      "children": []
+    },
+    {
+      "id": "gallery-244",
+      "title": "دیدار استاندار مازندران با دبیرکل اکو و سفرای کشورهای بلاروس، قرقیزستان، ترکمنستان، افغنستان و ازبکستان در رویداد ساری 2022",
+      "href": "/section/gallery-244",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=244",
+      "children": []
+    },
+    {
+      "id": "gallery-243",
+      "title": "آیین افتتاحیه رویداد بین المللی ساری ۲۰۲۲؛ پایتخت گردشگری کشورهای عضو اکو",
+      "href": "/section/gallery-243",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=243",
+      "children": []
+    },
+    {
+      "id": "gallery-242",
+      "title": "استقبال استاندار و مدیران مازندران از دبیرکل و سفرای کشورهای عضو اکو در فرودگاه دشت ناز",
+      "href": "/section/gallery-242",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=242",
+      "children": []
+    },
+    {
+      "id": "gallery-241",
+      "title": "حضور و سخنرانی وزیر کشور در یادواره خلبان شهید علی اکبر قربان شیرودی در شهرستان تنکابن",
+      "href": "/section/gallery-241",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=241",
+      "children": []
+    },
+    {
+      "id": "gallery-240",
+      "title": "همایش چشم انداز توسعه استان مازندران با حضور وزیر کشور و استاندار",
+      "href": "/section/gallery-240",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=240",
+      "children": []
+    },
+    {
+      "id": "gallery-239",
+      "title": "بازدید وزیر کشور با همراهی استاندار مازندران از بندر نوشهر",
+      "href": "/section/gallery-239",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=239",
+      "children": []
+    },
+    {
+      "id": "gallery-238",
+      "title": "استقبال استاندار مازندران از سردار وحیدی، وزیر کشور در فرودگاه نوشهر",
+      "href": "/section/gallery-238",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsPhotoGalary?OrgId=1&GallaryId=238",
+      "children": []
+    },
+    {
+      "id": "gallery",
+      "title": "گالری فیلم و عکس",
+      "href": "/gallery",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/Gallery?OrgId=1",
+      "children": [
+        "gallery-272",
+        "gallery-271",
+        "gallery-270",
+        "gallery-267",
+        "gallery-263",
+        "gallery-262",
+        "gallery-261",
+        "gallery-260",
+        "gallery-246",
+        "gallery-244",
+        "gallery-243",
+        "gallery-242",
+        "gallery-241",
+        "gallery-240",
+        "gallery-239",
+        "gallery-238"
+      ]
+    },
+    {
+      "id": "slide-1",
+      "title": "سال ۱۴۰۵ (( اقتصاد مقاومتی در سایه وحدت ملی و امنیت ملی ))",
+      "href": "/section/slide-1",
+      "kind": "page",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsSlide?SlideId=3125",
+      "children": []
+    }
+  ],
+  "main": ["home", "menu-195", "managers", "about", "services", "duties", "agreement", "menu-173"],
+  "utility": ["contact", "register", "sitemap", "forum", "track", "menu-174", "english", "rss"],
+  "footer": ["menu-170", "menu-167", "menu-169", "menu-168", "contact", "sitemap"],
+  "useful": [
+    "call-72",
+    "call-71",
+    "call-69",
+    "link-10f12438",
+    "link-1dc99a95",
+    "link-eaa6201f",
+    "call-66",
+    "call-55",
+    "link-189cdcfd",
+    "link-95739125",
+    "call-34",
+    "call-61",
+    "call-60"
+  ],
+  "counties": [
+    {
+      "name": "بابلسر",
+      "slug": "babolsar",
+      "aliases": [],
+      "source_url": "https://ostan-mz.ir/babolsar",
+      "source_title": "فرمانداری شهرستان بابلسر"
+    },
+    {
+      "name": "نکا",
+      "slug": "neka",
+      "aliases": [],
+      "source_url": "https://ostan-mz.ir/neka",
+      "source_title": "فرمانداری شهرستان نکا"
+    },
+    {
+      "name": "قائم‌شهر",
+      "slug": "qaemshahr",
+      "aliases": ["ghaemshahr"],
+      "source_url": "https://ostan-mz.ir/ghaemshahr",
+      "source_title": "فرماندار شهرستان قائم شهر"
+    },
+    {
+      "name": "عباس‌آباد",
+      "slug": "abbasabad",
+      "aliases": [],
+      "source_url": "https://ostan-mz.ir/abbasabad",
+      "source_title": "فرمانداری شهرستان عباس آباد"
+    },
+    {
+      "name": "گلوگاه",
+      "slug": "galugah",
+      "aliases": [],
+      "source_url": "https://ostan-mz.ir/galugah",
+      "source_title": "فرمانداری شهرستان گلوگاه"
+    },
+    {
+      "name": "بهشهر",
+      "slug": "behshahr",
+      "aliases": [],
+      "source_url": "https://ostan-mz.ir/behshahr",
+      "source_title": "فرمانداری شهرستان بهشهر"
+    },
+    {
+      "name": "میاندورود",
+      "slug": "miandorud",
+      "aliases": [],
+      "source_url": "https://ostan-mz.ir/miandoroud",
+      "source_title": "فرمانداری شهرستان میاندورود"
+    },
+    {
+      "name": "نور",
+      "slug": "nur",
+      "aliases": ["noor", "nour"],
+      "source_url": "https://ostan-mz.ir/noor",
+      "source_title": "فرمانداری شهرستان نور"
+    },
+    {
+      "name": "کلاردشت",
+      "slug": "kelardasht",
+      "aliases": [],
+      "source_url": "https://ostan-mz.ir/kelardasht",
+      "source_title": "فرمانداری شهرستان کلاردشت"
+    },
+    {
+      "name": "آمل",
+      "slug": "amol",
+      "aliases": [],
+      "source_url": "https://ostan-mz.ir/amol",
+      "source_title": "فرمانداری ویژه شهرستان آمل"
+    },
+    {
+      "name": "جویبار",
+      "slug": "juybar",
+      "aliases": ["joybar"],
+      "source_url": "https://ostan-mz.ir/jouybar",
+      "source_title": "فرمانداری شهرستان جویبار"
+    },
+    {
+      "name": "سوادکوه",
+      "slug": "savadkuh",
+      "aliases": [],
+      "source_url": "https://ostan-mz.ir/savadkooh",
+      "source_title": "فرمانداری شهرستان سوادکوه"
+    },
+    {
+      "name": "فریدونکنار",
+      "slug": "fereydunkenar",
+      "aliases": ["fereydounkenar"],
+      "source_url": "https://ostan-mz.ir/fereydonkenar",
+      "source_title": "فرمانداری شهرستان فریدونکنار"
+    },
+    {
+      "name": "چالوس",
+      "slug": "chalus",
+      "aliases": ["chalous"],
+      "source_url": "https://ostan-mz.ir/chaloos",
+      "source_title": "فرمانداری شهرستان چالوس"
+    },
+    {
+      "name": "محمودآباد",
+      "slug": "mahmudabad",
+      "aliases": ["mahmoudabad", "mahmoodabad"],
+      "source_url": "https://ostan-mz.ir/mahmoodabad",
+      "source_title": "فرمانداری شهرستان محمودآباد"
+    },
+    {
+      "name": "بابل",
+      "slug": "babol",
+      "aliases": [],
+      "source_url": "https://ostan-mz.ir/babol",
+      "source_title": "فرمانداری ویژه شهرستان بابل"
+    },
+    {
+      "name": "سیمرغ",
+      "slug": "simorgh",
+      "aliases": [],
+      "source_url": "https://ostan-mz.ir/simorgh",
+      "source_title": "فرمانداری شهرستان سیمرغ"
+    },
+    {
+      "name": "سوادکوه شمالی",
+      "slug": "savadkuh-shomali",
+      "aliases": ["north-savadkuh"],
+      "source_url": "https://ostan-mz.ir/savadkoohshomali",
+      "source_title": "فرمانداری سوادکوه شمالی"
+    },
+    {
+      "name": "ساری",
+      "slug": "sari",
+      "aliases": [],
+      "source_url": "https://ostan-mz.ir/sari",
+      "source_title": "فرمانداری شهرستان ساری"
+    },
+    {
+      "name": "رامسر",
+      "slug": "ramsar",
+      "aliases": [],
+      "source_url": "https://ostan-mz.ir/ramsar",
+      "source_title": "فرمانداری شهرستان رامسر"
+    },
+    {
+      "name": "تنکابن",
+      "slug": "tonekabon",
+      "aliases": ["gov_tonekabon"],
+      "source_url": "https://ostan-mz.ir/tonekabon",
+      "source_title": "فرمانداری ویژه تنکابن"
+    },
+    {
+      "name": "نوشهر",
+      "slug": "noshahr",
+      "aliases": ["nowshahr"],
+      "source_url": "https://ostan-mz.ir/noshahr",
+      "source_title": "فرمانداری شهرستان نوشهر"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "فرمانداری شهرستان بابلسر",
+      "slug": "county-babolsar",
+      "county": "babolsar",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/babolsar"
+    },
+    {
+      "name": "فرمانداری شهرستان نکا",
+      "slug": "county-neka",
+      "county": "neka",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/neka"
+    },
+    {
+      "name": "فرماندار شهرستان قائم شهر",
+      "slug": "county-qaemshahr",
+      "county": "qaemshahr",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/ghaemshahr"
+    },
+    {
+      "name": "فرمانداری شهرستان عباس آباد",
+      "slug": "county-abbasabad",
+      "county": "abbasabad",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/abbasabad"
+    },
+    {
+      "name": "فرمانداری شهرستان گلوگاه",
+      "slug": "county-galugah",
+      "county": "galugah",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/galugah"
+    },
+    {
+      "name": "فرمانداری شهرستان بهشهر",
+      "slug": "county-behshahr",
+      "county": "behshahr",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/behshahr"
+    },
+    {
+      "name": "فرمانداری شهرستان میاندورود",
+      "slug": "county-miandorud",
+      "county": "miandorud",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/miandoroud"
+    },
+    {
+      "name": "فرمانداری شهرستان نور",
+      "slug": "county-nur",
+      "county": "nur",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/noor"
+    },
+    {
+      "name": "فرمانداری شهرستان کلاردشت",
+      "slug": "county-kelardasht",
+      "county": "kelardasht",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/kelardasht"
+    },
+    {
+      "name": "فرمانداری ویژه شهرستان آمل",
+      "slug": "county-amol",
+      "county": "amol",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/amol"
+    },
+    {
+      "name": "فرمانداری شهرستان جویبار",
+      "slug": "county-juybar",
+      "county": "juybar",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/jouybar"
+    },
+    {
+      "name": "فرمانداری شهرستان سوادکوه",
+      "slug": "county-savadkuh",
+      "county": "savadkuh",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/savadkooh"
+    },
+    {
+      "name": "فرمانداری شهرستان فریدونکنار",
+      "slug": "county-fereydunkenar",
+      "county": "fereydunkenar",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/fereydonkenar"
+    },
+    {
+      "name": "فرمانداری شهرستان چالوس",
+      "slug": "county-chalus",
+      "county": "chalus",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/chaloos"
+    },
+    {
+      "name": "فرمانداری شهرستان محمودآباد",
+      "slug": "county-mahmudabad",
+      "county": "mahmudabad",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/mahmoodabad"
+    },
+    {
+      "name": "فرمانداری ویژه شهرستان بابل",
+      "slug": "county-babol",
+      "county": "babol",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/babol"
+    },
+    {
+      "name": "فرمانداری شهرستان سیمرغ",
+      "slug": "county-simorgh",
+      "county": "simorgh",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/simorgh"
+    },
+    {
+      "name": "فرمانداری سوادکوه شمالی",
+      "slug": "county-savadkuh-shomali",
+      "county": "savadkuh-shomali",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/savadkoohshomali"
+    },
+    {
+      "name": "فرمانداری شهرستان ساری",
+      "slug": "county-sari",
+      "county": "sari",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/sari"
+    },
+    {
+      "name": "فرمانداری شهرستان رامسر",
+      "slug": "county-ramsar",
+      "county": "ramsar",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/ramsar"
+    },
+    {
+      "name": "فرمانداری ویژه تنکابن",
+      "slug": "county-tonekabon",
+      "county": "tonekabon",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/tonekabon"
+    },
+    {
+      "name": "فرمانداری شهرستان نوشهر",
+      "slug": "county-noshahr",
+      "county": "noshahr",
+      "type": "county",
+      "source_url": "https://ostan-mz.ir/noshahr"
+    },
+    {
+      "name": "معاونت سیاسی،امنیتی و اجتماعی",
+      "slug": "official-unit-50",
+      "type": "department",
+      "menu_id": "50",
+      "parent": null,
+      "source_group": "استاندار و معاونتها",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=50&OrgId=1"
+    },
+    {
+      "name": "معاون هماهنگی امور اقتصادی",
+      "slug": "official-unit-52",
+      "type": "department",
+      "menu_id": "52",
+      "parent": null,
+      "source_group": "استاندار و معاونتها",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=52&OrgId=1"
+    },
+    {
+      "name": "معاونت توسعه مدیریت و منابع انسانی",
+      "slug": "official-unit-190",
+      "type": "department",
+      "menu_id": "190",
+      "parent": null,
+      "source_group": "استاندار و معاونتها",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=190&OrgId=1"
+    },
+    {
+      "name": "معاونت هماهنگی امور عمرانی",
+      "slug": "official-unit-51",
+      "type": "department",
+      "menu_id": "51",
+      "parent": null,
+      "source_group": "استاندار و معاونتها",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=51&OrgId=1"
+    },
+    {
+      "name": "دفتر استاندار و روابط عمومی و بین الملل",
+      "slug": "official-unit-43",
+      "type": "department",
+      "menu_id": "43",
+      "parent": null,
+      "source_group": "حوزه استاندار",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=43&OrgId=1"
+    },
+    {
+      "name": "دفتر امور بانوان و خانواده",
+      "slug": "official-unit-44",
+      "type": "department",
+      "menu_id": "44",
+      "parent": null,
+      "source_group": "حوزه استاندار",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=44&OrgId=1"
+    },
+    {
+      "name": "دفتر ، مدیریت عملکرد، بازرسی و امور حقوقی",
+      "slug": "official-unit-45",
+      "type": "department",
+      "menu_id": "45",
+      "parent": null,
+      "source_group": "حوزه استاندار",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=45&OrgId=1"
+    },
+    {
+      "name": "اداره کل حراست",
+      "slug": "official-unit-46",
+      "type": "department",
+      "menu_id": "46",
+      "parent": null,
+      "source_group": "حوزه استاندار",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=46&OrgId=1"
+    },
+    {
+      "name": "هسته گزینش",
+      "slug": "official-unit-47",
+      "type": "department",
+      "menu_id": "47",
+      "parent": null,
+      "source_group": "حوزه استاندار",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=47&OrgId=1"
+    },
+    {
+      "name": "دفتر برنامه ریزی ، نوسازی وتحول اداری",
+      "slug": "official-unit-37",
+      "type": "department",
+      "menu_id": "37",
+      "parent": "190",
+      "source_group": "معاونت توسعه مدیریت و منابع انسانی",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=37&OrgId=1"
+    },
+    {
+      "name": "مدیریت فناوری اطلاعات ، امنیت فضای مجازی و شبکه دولت",
+      "slug": "official-unit-38",
+      "type": "department",
+      "menu_id": "38",
+      "parent": "190",
+      "source_group": "معاونت توسعه مدیریت و منابع انسانی",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=38&OrgId=1"
+    },
+    {
+      "name": "اداره کل امور اداری و مالی",
+      "slug": "official-unit-39",
+      "type": "department",
+      "menu_id": "39",
+      "parent": "190",
+      "source_group": "معاونت توسعه مدیریت و منابع انسانی",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=39&OrgId=1"
+    },
+    {
+      "name": "اداره کل سیاسی و انتخابات",
+      "slug": "official-unit-22",
+      "type": "department",
+      "menu_id": "22",
+      "parent": "50",
+      "source_group": "معاونت سیاسی",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=22&OrgId=1"
+    },
+    {
+      "name": "اداره کل امور اجتماعی و فرهنگی",
+      "slug": "official-unit-23",
+      "type": "department",
+      "menu_id": "23",
+      "parent": "50",
+      "source_group": "معاونت سیاسی",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=23&OrgId=1"
+    },
+    {
+      "name": "اداره کل امور امنیتی و انتظامی",
+      "slug": "official-unit-34",
+      "type": "department",
+      "menu_id": "34",
+      "parent": "50",
+      "source_group": "معاونت سیاسی",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=34&OrgId=1"
+    },
+    {
+      "name": "اداره کل پدافند غیرعامل",
+      "slug": "official-unit-33",
+      "type": "department",
+      "menu_id": "33",
+      "parent": "50",
+      "source_group": "معاونت سیاسی",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=33&OrgId=1"
+    },
+    {
+      "name": "مدیریت امور اتباع و مهاجرین",
+      "slug": "official-unit-35",
+      "type": "department",
+      "menu_id": "35",
+      "parent": "50",
+      "source_group": "معاونت سیاسی",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=35&OrgId=1"
+    },
+    {
+      "name": "دفتر جذب و حمایت از سرمایه گذاری",
+      "slug": "official-unit-40",
+      "type": "department",
+      "menu_id": "40",
+      "parent": "52",
+      "source_group": "معاونت هماهنگی امور اقتصادی",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=40&OrgId=1"
+    },
+    {
+      "name": "دفتر هماهنگی امور اقتصادی",
+      "slug": "official-unit-41",
+      "type": "department",
+      "menu_id": "41",
+      "parent": "52",
+      "source_group": "معاونت هماهنگی امور اقتصادی",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=41&OrgId=1"
+    },
+    {
+      "name": "اداره کل شهری و شوراها",
+      "slug": "official-unit-29",
+      "type": "department",
+      "menu_id": "29",
+      "parent": "51",
+      "source_group": "معاونت هماهنگی امور عمرانی",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=29&OrgId=1"
+    },
+    {
+      "name": "اداره کل روستایی و شوراها",
+      "slug": "official-unit-30",
+      "type": "department",
+      "menu_id": "30",
+      "parent": "51",
+      "source_group": "معاونت هماهنگی امور عمرانی",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=30&OrgId=1"
+    },
+    {
+      "name": "اداره کل مدیریت بحران",
+      "slug": "official-unit-31",
+      "type": "department",
+      "menu_id": "31",
+      "parent": "51",
+      "source_group": "معاونت هماهنگی امور عمرانی",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=31&OrgId=1"
+    },
+    {
+      "name": "دفتر فنی ،امور عمرانی و حمل ونقل و ترافیک",
+      "slug": "official-unit-32",
+      "type": "department",
+      "menu_id": "32",
+      "parent": "51",
+      "source_group": "معاونت هماهنگی امور عمرانی",
+      "source_url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=32&OrgId=1"
+    }
+  ],
+  "links": [
+    {
+      "title": "معاونین استاندار مازندران",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=64&OrgId=1",
+      "category": "managers",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "مدیران ستادی استانداری مازندران",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=61&OrgId=1",
+      "category": "managers",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "فرمانداران مازندران",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=63&OrgId=1",
+      "category": "managers",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "مشاورین استاندار",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=109&OrgId=1",
+      "category": "managers",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "مدیران ادارات و دستگاههای اجرایی",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=62&OrgId=1",
+      "category": "managers",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "مدیران روابط عمومی استان",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=198&OrgId=1",
+      "category": "managers",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "اطلاعات عمومی",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=5&OrgId=1",
+      "category": "mazandaran",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "خدمات الکترونیکی استانداری مازندران",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=1&OrgId=1",
+      "category": "services",
+      "position": "quick",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "خدمات الکترونیکی",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=8&OrgId=1",
+      "category": "services",
+      "position": "quick",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "پیوندها",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=9&OrgId=1",
+      "category": "services",
+      "position": "quick",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "میز ارتباطات مردمی وزارت کشور",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=188&OrgId=1",
+      "category": "services",
+      "position": "quick",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "سامانه مدیریت خدمات دولت",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=171&OrgId=1",
+      "category": "services",
+      "position": "quick",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "پیشخوان ارباب رجوع",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=197&OrgId=1",
+      "category": "services",
+      "position": "quick",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "شرح وظایف و ماموریتهای اساسی استانداری ها",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=49&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "معاونت سیاسی،امنیتی و اجتماعی",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=50&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "معاون هماهنگی امور اقتصادی",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=52&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "معاونت توسعه مدیریت و منابع انسانی",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=190&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "معاونت هماهنگی امور عمرانی",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=51&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "دفتر استاندار و روابط عمومی و بین الملل :",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=43&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "دفتر امور بانوان و خانواده",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=44&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "دفتر ، مدیریت عملکرد، بازرسی و امور حقوقی",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=45&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "اداره کل حراست",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=46&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "هسته گزینش",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=47&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "دفتر برنامه ریزی ، نوسازی وتحول اداری",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=37&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "مدیریت فناوری اطلاعات ، امنیت فضای مجازی و شبکه دولت",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=38&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "اداره کل امور اداری و مالی",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=39&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "اداره کل سیاسی و انتخابات",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=22&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "اداره کل امور اجتماعی و فرهنگی",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=23&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "اداره کل امور امنیتی و انتظامی",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=34&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "اداره کل پدافند غیرعامل",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=33&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "مدیریت امور اتباع و مهاجرین",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=35&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "دفتر جذب و حمایت از سرمایه گذاری",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=40&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "دفتر هماهنگی امور اقتصادی",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=41&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "اداره کل شهری و شوراها",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=29&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "اداره کل روستایی و شوراها",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=30&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "اداره کل مدیریت بحران",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=31&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "دفتر فنی ،امور عمرانی و حمل ونقل و ترافیک",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=32&OrgId=1",
+      "category": "duties",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "پشتیبانی شبکه دولت",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=176&OrgId=1",
+      "category": "agreement",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "رهگیری",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=177&OrgId=1",
+      "category": "agreement",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "نظرسنجی دستگاه های اجرایی",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=173&OrgId=1",
+      "category": "services",
+      "position": "quick",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "عملکرد دستگاه",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=170&OrgId=1",
+      "category": "quick",
+      "position": "footer",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "بیانیه حریم خصوصی",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=167&OrgId=1",
+      "category": "quick",
+      "position": "footer",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "بیانیه راهبرد مشارکت",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=169&OrgId=1",
+      "category": "quick",
+      "position": "footer",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "بیانیه سطح توافق خدمات",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsMenuContent?MenuId=168&OrgId=1",
+      "category": "quick",
+      "position": "footer",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "تماس با ما",
+      "url": "http://www.ostan-mz.ir/Home/ContactUs",
+      "category": "quick",
+      "position": "footer",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "پایگاه اطلاع رسانی دفتر مقام معظم رهبری",
+      "url": "http://www.leader.ir/fa",
+      "category": "useful",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "پایگاه اطلاع رسانی ریاست جمهوری",
+      "url": "http://www.president.ir/fa",
+      "category": "useful",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "وزارت کشور",
+      "url": "https://moi.ir/Portal/Home/default.aspx",
+      "category": "useful",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    },
+    {
+      "title": "مجلس شورای اسلامی",
+      "url": "http://www.parliran.ir/",
+      "category": "useful",
+      "position": "useful",
+      "source_url": "https://ostan-mz.ir/"
+    }
+  ],
+  "news": [
+    {
+      "source_id": "173526",
+      "slug": "official-news-173526",
+      "type": "news",
+      "title": "استاندار مازندران خبر داد: تخصیص ۱۵ همت اعتبار برای آغاز عملیات اجرایی نیروگاه ۱۰۰ مگاواتی نوشهر",
+      "excerpt": "مهدی یونسی رستمی استاندار مازندران، از تخصیص ۱۵ همت اعتبار برای آغاز عملیات اجرایی نیروگاه ۱۰۰ مگاواتی نوشهر خبر داد و این طرح را گامی مهم در مسیر تقویت زیرساخت‌های انرژی، افزایش ظرفیت تولید برق و پشتیبانی از توسعه اقتصادی استان عنوان کرد.",
+      "source_url": "https://ostan-mz.ir/news/173526",
+      "source_date": "26 مهر 1405",
+      "published_at": "2026-10-18 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "173525",
+      "slug": "official-news-173525",
+      "type": "news",
+      "title": "استاندار مازندران: آغاز عملیات زباله برداری و بسترسازی برای احداث سایت کمپوست مدرن شهرستان نوشهر",
+      "excerpt": "مهدی یونسی رستمی استاندار مازندران، از آغاز عملیات زباله‌برداری و بسترسازی برای احداث سایت مدرن کمپوست شهرستان نوشهر خبر داد و گفت: این پروژه با الگوگیری از مراکز پیشرفته کمپوست در استان و با هدف توسعه زیرساخت‌های نوین مدیریت پسماند و ساماندهی اصولی زباله اجرا می‌شود.",
+      "source_url": "https://ostan-mz.ir/news/173525",
+      "source_date": "26 مهر 1405",
+      "published_at": "2026-10-18 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "173508",
+      "slug": "official-news-173508",
+      "type": "news",
+      "title": "تجلیل استاندار مازندران از محمد لائینی، حافظ کل قرآن کریم در شورای اداری استان",
+      "excerpt": "مهدی یونسی رستمی، استاندار مازندران، در آغاز جلسه شورای اداری استان از محمد لائینی، جوان مازندرانی و حافظ کل قرآن کریم که در عرصه مسابقات ملی و بین‌المللی قرآن افتخارآفرینی کرده است، تجلیل کرد.",
+      "source_url": "https://ostan-mz.ir/news/173508",
+      "source_date": "25 مهر 1405",
+      "published_at": "2026-10-17 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "173507",
+      "slug": "official-news-173507",
+      "type": "news",
+      "title": "یونسی: انسجام مدیریتی و همدلی دستگاه‌ها، مازندران را در ارزیابی وزارت کشور به جایگاه برتر رساند",
+      "excerpt": "مهدی یونسی رستمی با قدردانی از تلاش مدیران و کارکنان دستگاه‌های اجرایی استان، انسجام میان مجموعه مدیریتی، شورای تأمین و فرماندهان نظامی و انتظامی را از عوامل مهم موفقیت مازندران دانست و بر ضرورت تقویت رویکردهای علمی، پژوهشی و آموزشی در نظام مدیریتی تأکید کرد.",
+      "source_url": "https://ostan-mz.ir/news/173507",
+      "source_date": "25 مهر 1405",
+      "published_at": "2026-10-17 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "173505",
+      "slug": "official-news-173505",
+      "type": "news",
+      "title": "تعطیلی ادارات، بانک‌ها، دانشگاه ها و مدارس شهرستان ساری در روز یکشنبه ۲۶ مهر همزمان با برگزاری رزمایش «جان‌فدایان»",
+      "excerpt": "معاون توسعه مدیریت و منابع استانداری مازندران از تعطیلی ادارات، دانشگاه‌ها، بانک‌ها و مدارس شهرستان ساری همزمان با برگزاری رزمایش بزرگ «جان‌فدایان» در مرکز استان خبر داد و اعلام کرد: بانک‌ها در این روز با تعیین شعب کشیک به ارائه خدمات ضروری خواهند پرداخت.",
+      "source_url": "https://ostan-mz.ir/news/173505",
+      "source_date": "25 مهر 1405",
+      "published_at": "2026-10-17 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "173504",
+      "slug": "official-news-173504",
+      "type": "news",
+      "title": "ضرورت تدوین نقشه راه جامع گردشگری مازندران با محوریت دریا و سرمایه‌گذاری",
+      "excerpt": "معاون هماهنگی امور اقتصادی و گردشگری استاندار مازندران، تدوین برنامه جامع توسعه گردشگری، سامان‌دهی ظرفیت‌های ساحلی و تسهیل سرمایه‌گذاری را از الزامات توسعه گردشگری استان دانست.",
+      "source_url": "https://ostan-mz.ir/news/173504",
+      "source_date": "25 مهر 1405",
+      "published_at": "2026-10-17 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "173503",
+      "slug": "official-news-173503",
+      "type": "news",
+      "title": "صادرات مرکبات مازندران در مسیر رونق؛ گام‌های تازه برای رفع موانع و حمایت از کشاورزان",
+      "excerpt": "معاون توسعه بازرگانی وزارت جهاد کشاورزی گفت: رفع موانع صادراتی، حمایت از تولیدکنندگان و تقویت ذخیره‌سازی میوه شب عید در دستور کار قرار دارد.",
+      "source_url": "https://ostan-mz.ir/news/173503",
+      "source_date": "25 مهر 1405",
+      "published_at": "2026-10-17 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "173502",
+      "slug": "official-news-173502",
+      "type": "news",
+      "title": "اطلاعیه محدودیت‌های ترافیکی مراسم جان‌فدایان ساری",
+      "excerpt": "رئیس پلیس راهنمایی و رانندگی مازندران گفت: به‌منظور برگزاری مراسم جان‌فدایان، محدودیت‌ها و ممنوعیت‌های ترافیکی روز یکشنبه ۲۶ مهر در شهرستان ساری اعمال خواهد شد.",
+      "source_url": "https://ostan-mz.ir/news/173502",
+      "source_date": "25 مهر 1405",
+      "published_at": "2026-10-17 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "173497",
+      "slug": "official-news-173497",
+      "type": "news",
+      "title": "استاندار مازندران در دیدار با پرستاران: بیمارستان زارع ساری در مسیر نوسازی و انتقال؛ پیگیری برای رفع موانع مالی",
+      "excerpt": "مهدی یونسی رستمی، استاندار مازندران، همزمان با میلاد حضرت زینب (س) و روز پرستار، با حضور در بیمارستان سوختگی و روان‌پزشکی زارع ساری و همراهی رئیس دانشگاه علوم پزشکی مازندران، ضمن تبریک این مناسبت و قدردانی از تلاش‌های پرستاران، بر ضرورت نوسازی زیرساخت‌های این مرکز درمانی و پیگیری روند انتقال آن تأکید کرد.",
+      "source_url": "https://ostan-mz.ir/news/173497",
+      "source_date": "25 مهر 1405",
+      "published_at": "2026-10-17 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "173486",
+      "slug": "official-news-173486",
+      "type": "news",
+      "title": "استاندار مازندران: منافع مولدسازی اراضی ۲۰ هکتاری باید به مردم فریدون‌کنار برسد و حق مردم تضمین گردد",
+      "excerpt": "استاندار مازندران درباره طرح مولدسازی اراضی ۲۰ هکتاری شرکت آب و برق خوزستان و طرح دغدغه‌ها و نگرانی‌های مطرح‌شده از سوی نماینده مردم در مجلس شورای اسلامی در این زمینه، اظهار کرد: این موضوع در مراحل اولیه بررسی کارشناسی قرار دارد و میزان دقیق اراضی و ابعاد مختلف طرح باید به‌صورت کارشناسی مشخص شود.",
+      "source_url": "https://ostan-mz.ir/news/173486",
+      "source_date": "24 مهر 1405",
+      "published_at": "2026-10-16 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "149",
+      "slug": "official-tender-149",
+      "type": "tender",
+      "title": "اخبار مناقصات و مزایدات استانداری مازندران و واحد های تابعه را از این قسمت دنبال نمایید",
+      "excerpt": "با عنایت به راه اندازی سامانه جدید اطلاع رسانی استانداری مازندران و واحد های تابعه ، اخبار مناقصات و مزایدات را می توانید از این صفحه پیگیری نمایید.",
+      "source_url": "https://ostan-mz.ir/news/149",
+      "source_date": "3 اردیبهشت 1397",
+      "published_at": "2018-04-23 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "73836",
+      "slug": "official-document-73836",
+      "type": "document",
+      "title": "متن قانون انتشار و دسترسی آزاد به اطلاعات",
+      "excerpt": "قانون انتشار و دسترسی آزاد به اطلاعات مشتمل بر ٢٣ ماده و هفت تبصره، در جلسه علنی روز یکشنبه مورخ ششم بهمن‌ماه ١٣٨٧ مجلس شورای اسلامی تصویب و در تاریخ ٣١/٥/١٣٨٨ از سوی مجمع تشخیص مصلحت نظام با الحاق یک تبصره ذیل ماده (١٠) موافق با مصلحت نظام تشخیص داده شد.",
+      "source_url": "https://ostan-mz.ir/news/73836",
+      "source_date": "2 مهر 1397",
+      "published_at": "2018-09-24 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "73837",
+      "slug": "official-document-73837",
+      "type": "document",
+      "title": "آیین‌نامه اجرایی قانون انتشار و دسترسی آزاد به اطلاعات",
+      "excerpt": "هیات وزیران در جلسه ١٣٩٣/٨/٢١ به پیشنهاد شماره ١٣٤٤٨٠/١ مورخ ١٣٩٢/١٠/٧ وزارت فرهنگ و ارشاد اسلامی (با همکاری سایر دستگاه های ذیربط) و به استناد ماده ٢٣ قانون انتشار و دسترسی آزاد به اطلاعات - مصوب ١٣٨٨-، آیین نامه اجرایی قانون یاد شده را تصویب کرد.",
+      "source_url": "https://ostan-mz.ir/news/73837",
+      "source_date": "2 مهر 1397",
+      "published_at": "2018-09-24 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "73844",
+      "slug": "official-document-73844",
+      "type": "document",
+      "title": "دستورالعمل تفویض اختیارات وزارت کشور در خصوص صدور مجوز برگزاری تجمعات",
+      "excerpt": "دستورالعمل تفویض اختیارات وزارت کشور در خصوص صدور مجوز برگزاری تجمعات",
+      "source_url": "https://ostan-mz.ir/news/73844",
+      "source_date": "2 مهر 1397",
+      "published_at": "2018-09-24 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "73840",
+      "slug": "official-document-73840",
+      "type": "document",
+      "title": "ایثارگران در قانون برنامه ششم توسعه",
+      "excerpt": "دولت موظف است اقدامات لازم برای اجرای صحیح و به موقع قانون جامع خدمات رسانی به ایثارگران را به عمل آورد و اعتبار کافی را در بودجه سنواتی پیش بینی نماید وکلیه آیین نامه های اجرائی آن را حداکثر تا شش ماهه سال اول اجرای قانون برنامه تصویب و ابلاغ نماید.",
+      "source_url": "https://ostan-mz.ir/news/73840",
+      "source_date": "2 مهر 1397",
+      "published_at": "2018-09-24 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "73839",
+      "slug": "official-document-73839",
+      "type": "document",
+      "title": "ایثارگران درقانون جامع خدمات رسانی به ایثارگران",
+      "excerpt": "ایثارگران درقانون جامع خدمات رسانی به ایثارگران مورد تأیید مجمع تشخیص مصلحت نظام درتاریخ 2/10/91",
+      "source_url": "https://ostan-mz.ir/news/73839",
+      "source_date": "2 مهر 1397",
+      "published_at": "2018-09-24 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "73838",
+      "slug": "official-document-73838",
+      "type": "document",
+      "title": "آیین نامه اجرایی ماده (٨) قانون انتشار و دسترسی آزاد به اطلاعات",
+      "excerpt": "هیات وزیران در جلسه ١٣٩٤/٦/٢٢ به پیشنهاد کمیسیون انتشار و دسترسی آزاد به اطلاعات و به استناد ماده (٨) قانون انتشار و دسترسی آزاد به اطلاعات -مصوب ١٣٨٨-، آیین نامه اجرایی ماده یاد شده را تصویب کرد:",
+      "source_url": "https://ostan-mz.ir/news/73838",
+      "source_date": "2 مهر 1397",
+      "published_at": "2018-09-24 00:00:00",
+      "image": null
+    },
+    {
+      "source_id": "73841",
+      "slug": "official-document-73841",
+      "type": "document",
+      "title": "موارد مرتبط با وظایف اداره کل توسعه منابع انسانی پیرامون حقوق شهروندی در نظام اداری",
+      "excerpt": "موارد مرتبط با وظایف اداره کل توسعه منابع انسانی پیرامون حقوق شهروندی در نظام اداری",
+      "source_url": "https://ostan-mz.ir/news/73841",
+      "source_date": "2 مهر 1397",
+      "published_at": "2018-09-24 00:00:00",
+      "image": null
+    }
+  ],
+  "governor": {
+    "name": "مهدی یونسی رستمی",
+    "position": "استاندار مازندران",
+    "image": "/design/site/assets/image/ProfImage80906772photo15252682277.jpg",
+    "email": "ostandar@ostan-mz.ir",
+    "phone": "01133310231 - 01133310232",
+    "source_url": "https://ostan-mz.ir/"
+  },
+  "slides": [
+    {
+      "title": "سال ۱۴۰۵ (( اقتصاد مقاومتی در سایه وحدت ملی و امنیت ملی ))",
+      "image": "/design/site/assets/image/SlideShowImage48554642IMG_20260323_133439_246.jpg",
+      "url": "https://ostan-mz.ir/Home/ShowDetailsSlide?SlideId=3125",
+      "href": "/section/slide-1"
+    }
+  ],
+  "contact": {
+    "address": "ساری، خیابان انقلاب، استانداری مازندران",
+    "phone": "01133310211-19",
+    "fax": "01133310283",
+    "email": "info@ostan-mz.ir"
+  }
+}

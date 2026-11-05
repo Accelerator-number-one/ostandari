@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 30 20" aria-hidden="true" focusable="false"><rect width="30" height="6.67" y="0" fill="#000000"></rect><rect width="30" height="6.67" y="6.67" fill="#ffffff"></rect><rect width="30" height="6.66" y="13.34" fill="#007A3D"></rect><path d="M0 0 L15 10 L0 20 Z" fill="#CE1126"></path></svg>

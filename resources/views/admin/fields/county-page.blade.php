@@ -1,0 +1,3 @@
+@if($context['type']==='county')
+<div class="portal-resource-field portal-resource-wide"><label for="county-page-location">نمایش در صفحهٔ سایت <span class="portal-field-requirement">اختیاری</span></label><select id="county-page-location" name="portal_path" data-field="portal_path"><option value="">صفحهٔ مستقل</option>@foreach(\App\Services\CountyPortal::pages() as $pagePath=>$pageTitle)<option value="{{ $pagePath }}">{{ $ui->countyTitle($pageTitle,$context['county']) }}</option>@endforeach</select><small class="portal-field-help">پس از انتشار، متن و تصاویر این مطلب در صفحهٔ انتخاب‌شدهٔ فرمانداری نمایش داده می‌شود.</small></div>
+@endif

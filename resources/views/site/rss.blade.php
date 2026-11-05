@@ -1,0 +1,2 @@
+@php echo '<'.'?xml version="1.0" encoding="UTF-8"?'.'>'; @endphp
+<rss version="2.0"><channel><title>اخبار استانداری مازندران</title><link>{{ url('/') }}</link><description>تازه‌های استانداری مازندران</description>@foreach($items as $item)<item><title>{{ $item['title'] }}</title><link>{{ url($ui->article($item)) }}</link><description>{{ $ui->text($item['excerpt'] ?? '') }}</description></item>@endforeach</channel></rss>

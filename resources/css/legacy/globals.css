@@ -1,0 +1,26 @@
+@layer theme, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+@import './portal.css';
+@source "../**/*.{ts,tsx}";
+
+[x-cloak] {
+  display: none !important;
+}
+[hidden] {
+  display: none !important;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+[data-preview='false']:not([data-ready='true']) .education-table tbody {
+  visibility: hidden;
+}
+
+@theme {
+  --font-vazirmatn: 'vazirmatn', sans-serif;
+  --color-ostan-blue: #00477a;
+  --color-ostan-teal: #119e99;
+}

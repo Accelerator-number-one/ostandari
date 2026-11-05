@@ -1,0 +1,27 @@
+@layer theme, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+@import './legacy/portal.css';
+@import './legacy/public-site.css';
+@import './legacy/county-office.css';
+@import './legacy/site-navigation.css';
+@import './legacy/download-page.css';
+@import './legacy/admin-reports.css';
+@import './legacy/admin-cms.css';
+@import './legacy/admin-pages.css';
+@import './legacy/rich-text-album.css';
+@import './legacy/authentication.css';
+@import './legacy/content-article.css';
+@import './native.css';
+@import './refinements.css';
+@import './staff-portals.css';
+@import './admin-dashboard.css';
+@import './public-directories.css';
+@import './county-home.css';
+@source '../views/**/*.blade.php';
+@source '../js/**/*.{js,ts}';
+@theme { --font-vazirmatn: 'vazirmatn',sans-serif; --color-ostan-blue:#00477a; --color-ostan-teal:#119e99; }
+[x-cloak],[hidden]{display:none!important}
+html,body{margin:0;padding:0}
+[data-preview='false']:not([data-ready='true']) .education-table tbody{visibility:hidden}
+@media print{.header-container,.sidebar,footer,.portal-editor-actions,.source-breadcrumb,.portal-article-toolbar,.portal-related-content,.portal-comments{display:none!important}.source-article,.portal-article-page{max-width:none!important}.portal-article-heading{display:block!important}}

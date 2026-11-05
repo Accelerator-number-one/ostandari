@@ -1,0 +1,1 @@
+<svg class="arrow10" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 5l-8 7 8 7"></path></svg>

@@ -1,0 +1,1 @@
+<ul>@foreach($entries as $entry)<li><a href="{{ $entry['href'] }}">{{ $entry['title'] }}</a>@if(!empty($entry['children']))@include('site.sitemap-branch',['entries'=>$entry['children']])@endif</li>@endforeach</ul>
